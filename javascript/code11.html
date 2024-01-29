@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		//array declaration code in javascript
+//1. first way
+//array in javsript is like list in python
+var arr=["harshit","yash","naman","murli"];
+for (var i = 0; i < arr.length ; i++) {
+	document.write(i+" "+arr[i]+"<br>");
+}
+//2. second way
+var arr1= new Array();
+arr1[0]="H";
+arr1[1]="A";
+arr1[2]="R";
+arr1[3]="S";
+arr1[4]="H";
+arr1[5]="i";
+arr1[6]="T";
+
+document.write("<br>");
+
+for (var i = 0; i < arr.length ; i++) {
+	document.write(i+" "+arr[i]+"<br>");
+}
+document.write("<br>");
+//3. third way
+var arr2= new Array("a","b","c");
+for (var i = 0; i < arr2.length ; i++) {
+	document.write(i+" "+arr2[i]+"<br>");
+}
+//4. Fourth way
+var arr3=[];
+arr3[0]=1;
+arr3[1]=2;
+arr3[2]=3;
+document.write("<br>");
+for (var i = 0; i < 3 ; i++) {
+	document.write(arr3[i]+"<br>");
+}
+
+
+
+//array function
+var arr3=new Array();
+arr3[0]=1;
+arr3[1]=2;
+arr3[2]=3;
+arr3[3]=4;
+document.write("<br>","push function","<br>");
+//push method
+arr3.push("hello");
+for(i=0;i<arr3.length;i++){
+	document.write(arr3[i]);
+}
+
+//pop method
+document.write("<br>","pop function");
+arr3.pop();
+for(i=0;i<arr3.length;i++){
+	document.write("<br>",arr3[i]);
+}
+
+//shift method
+arr3.shift()
+document.write("<br>","Shift function");
+for(i=0;i<arr3.length;i++){
+	document.write("<br>",arr3[i]);
+}
+document.write("<br>","Sort function");
+var arr5=new Array();
+arr5[0]=4;
+arr5[1]=2;
+arr5[2]=5;
+arr5[3]=6;
+
+arr5.sort()
+for(i=0;i<arr5.length;i++){
+	document.write("<br>",arr5[i]);
+}
+
+
+	</script>
+
+
+</body>
+</html>

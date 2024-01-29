@@ -1,0 +1,102 @@
+package calc;
+import java.awt.*;
+
+import javax.swing.*;
+import javax.swing.border.Border;
+public class project {
+	JFrame f =new JFrame(); 
+	
+	JPanel p =new JPanel();
+	JTextArea t=new JTextArea(2,10);
+  JButton b1=new   JButton("1");
+  JButton b2=new   JButton("2");
+  JButton b3=new   JButton("3");
+  JButton b4 =new   JButton("4");
+  JButton b5=new   JButton("5");
+  JButton b6=new   JButton("6");
+  JButton b7=new   JButton("7");
+  JButton b8=new   JButton("8");
+  JButton b9=new   JButton("9");
+  JButton b0=new   JButton("0");
+
+
+  JButton badd=new   JButton();
+  JButton bmul=new   JButton();
+  JButton bdiv=new   JButton();
+  JButton bmsub=new   JButton();
+  JButton bclear=new   JButton();
+  JButton bdot=new   JButton();
+  JButton bequal=new   JButton();
+  
+  
+  
+  double number2,number1,result;
+	project(){
+f.setSize(340, 540);
+//helps to close window on click close like windows
+f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+f.setVisible(true);
+f.setTitle(" harshit calc ");
+//helps to make your farme resizeable maximize and minimise
+f.setResizable(true);
+//panel adding
+Border b =BorderFactory.createLineBorder(Color.BLUE,4);
+//set border of frame blue(color,intesity)
+p.setBorder(b);
+f.add(p);
+p.setBackground(Color.yellow);
+p.add(t);
+t.setBackground(Color.DARK_GRAY);
+//create boarder to add it frame to red 
+Border bk =BorderFactory.createLineBorder(Color.red,3);
+//setting border to textarea
+t.setBorder(bk);
+//setting border to textArea
+Font f1 =new Font("arial",Font.BOLD,33);
+//setting font text (type,length//this length decrease or increase size of textarea )
+t.setFont(f1);
+//setting font to textarea 
+t.setForeground(Color.green);
+//setting forground color of textarea (means font color which youtype on claculator
+t.setPreferredSize(new Dimension(2,10));
+//setting size of textarea dimension
+b1.setPreferredSize(new Dimension(80,40));
+p.add(b1);
+b1.setBackground(Color.RED);
+b2.setPreferredSize(new Dimension(80,40));
+p.add(b2);
+b2.setBackground(Color.RED);
+b3.setPreferredSize(new Dimension(80,40));
+p.add(b3);
+b3.setBackground(Color.RED);
+b4.setPreferredSize(new Dimension(80,40));
+p.add(b4);
+b4.setBackground(Color.RED);
+b5.setPreferredSize(new Dimension(80,40));
+p.add(b5);
+b5.setBackground(Color.RED);
+b6.setPreferredSize(new Dimension(80,40));
+p.add(b6);
+b6.setBackground(Color.RED);
+b7.setPreferredSize(new Dimension(80,40));
+p.add(b7);
+b7.setBackground(Color.RED);
+b8.setPreferredSize(new Dimension(80,40));
+p.add(b8);
+b8.setBackground(Color.RED);
+b9.setPreferredSize(new Dimension(80,40));
+p.add(b9);
+b9.setBackground(Color.RED);
+b0.setPreferredSize(new Dimension(80,40));
+p.add(b0);
+b0.setBackground(Color.RED);
+
+
+
+
+
+	}
+	
+	}
+
+

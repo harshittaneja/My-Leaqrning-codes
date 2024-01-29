@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		function fun(argument) {
+			// body...
+		var x=document.getElementById('a').value;
+		var y=document.getElementById('b').value;
+		var z= Number(x) + Number(y) ;
+		//putting value back in input type
+		document.getElementById('c').value=z;
+		}
+	</script>
+<input type="text" name="" id="a">
+<input type="text" name="" id="b">
+<input type="text" name="" id="c">
+<button onclick="fun()">click here</button>
+</body>
+</html>

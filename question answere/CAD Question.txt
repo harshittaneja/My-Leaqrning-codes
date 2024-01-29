@@ -1,0 +1,222 @@
+Q1.Which of the following service provider provides the least amount of built in security?
+1.SaaS
+2.PaaS
+3. IaaS (correct)
+4.All of the mentioned
+
+
+Q2.What is Cloud Foundry?
+1.A programming language use in developing a cloudapplication
+2.Another name for IBM Cloud
+3.An open-source platform as a service (correct)
+4.A library to develop cloud application
+
+Q3.CRM is an example of?
+1.SaaS(correct)
+2.PaaS
+3.IaaS
+4.Both a and B
+
+Q4.Which cloud characteristic refers to the ability of a subscriber to increase or decrease its computing requirements as needed without having to contact a human representative of the cloud provider?
+
+1.Rapid elasticity
+2.On-demand self service (correct)                
+3.Broad network access
+4.Resource pooling
+
+Q5.What is benefit of storage availability in the Cloud?
+
+1.Additional storage does not require budget for new large storage devices.(correct)
+2.Storage in the Cloud has a higher availability than storage devices in the local area    network.
+3.Storage in the Cloud has shorter access times than storage in the local area network.
+4.Storage in the Cloud is easier to protect against intrusion
+
+Q6.By enabling continuous delivery on your project, by default, where is the git repository created?
+1.GitHub
+2.RTC
+3.Gitrepo (correct)
+4.Google drive
+
+Q7.When working in the IBM Cloud environment in the US South region, what is the default domain that a new application is assigned to?
+1.github.com
+2.Ibmcloud.com
+3.mybluemix.net(correct)
+4.cloudfoundary.org
+
+Q8.Which file is used to customize the settings (like memory) for the server runtime ?
+
+1.packaje.json
+2.app.js
+3.manifest.yml (correct) 
+4.All of the above
+
+Q9.By default, when is the build stage triggered?
+
+1.A change is pushed to git (correct)
+2.A change is made on your local machine
+3.After the Deploy stage
+4.After you press play button from Web IDE
+
+Q10.What is the host name automatically named after creating a new Cloud Foundry application?
+
+1.space name
+2.resource pool
+3.app name (correct)
+4.organization name
+
+Q11.How does a DevOps platform benefit an organization in the process of application development?
+
+1.Cloud Integration
+2.Cloud Delivery
+3.Continuous Integration
+4.Continuous Delivery (correct)
+
+Q12.What is the hostname automatically named after creating a new Cloud Foundry application?
+
+1.space name
+2.resource pool
+3.app name(correct)
+4.organization name
+
+Q13.By default, when is the build stage triggered?
+
+
+1.A change is pushed to git.(correct)
+2.A change is made on your local machine.
+3.After the deploy stage.
+4.After you press play button from the web IDE.
+
+Q14.what is DevOps?
+
+1.A software development methodology
+2.A software methodology that integrates application development and operations (correct)
+3.An open-source community
+4.A tool for developing a web application
+
+Q15.In the manifest.yml file, what is the 'domain' attribute used for?
+
+
+1.Specifying the name of the application that was specified when creating the application in the IBM Cloud dashboard.
+2.Specifying the Cloud Foundry instance that you are deploying to.
+3.Indicating, to Cloud Foundry, the directory where your application is located. (INcorrect)
+4.Specifying the memory limit for all instances of the application
+
+
+Q16.Your IBM Cloud account name will be your organization name as well in Lite account.
+
+1.True
+2.False (correct)
+
+Q17.In IBM Cloud CLI API cf endpoint refers to the region where the application is going to deploy.
+1.true (correct)
+2.false
+
+Q18.Space name is device in IBM Cloud lite account.
+
+1.True
+2.False (correct) 
+
+Q19.Command for IBM Cloud account login through CLI.
+
+
+1.IBM CLoud login
+2.ibmcloud login (correct)
+3.IbmCloud login
+4.Ibmcloud login
+
+Q20.Name of the resource group in IBM Cloud lite account.
+
+1.Default (correct)
+2.default
+3.default resourcegroup
+4.ResourceGroup
+
+Q21.AppID service of IBM Cloud is a single-sign-on service.
+
+1.True  (correct)
+2.False
+
+Q22.Choose the Identity Provider from the following:
+
+
+1.Big Basket
+2.Google+ (correct)
+3.AWS
+4.Azure
+
+Q23.We can add only 2 users in Cloud Directory with the lite account.
+
+1.true
+2.False (correct)
+
+Q24.Multi-factor authentication is one of the policies use for users of Cloud Directory.
+
+1.True (correct)
+2.False
+
+Q25.What is Cloud Directory?
+
+1.Identity Provider (correct)
+2.Second-step Verification
+3.Multi-factor authentication
+4.Service provider 
+
+Q26.From following which is one of the types of Data.
+
+1.Pre-defined data
+2.Semi-structured (correct)
+3.Automatic-filled data
+4.De-associated data
+
+Q27.Example of Relational Databases.
+
+1.PostgreSQL (correct)
+2.MongoDB
+3.Redis
+4.Cloudant
+
+Q28.Rational databases can only have structured schema.
+
+1.True (correct)
+2.False
+
+Q29.Example of flat files.
+
+1.Excel sheets (correct)
+2.DB2
+3.Cloudant document
+4.MYSQL Tables
+
+Q30.NoSQL databases are for only semi-structured and un0structured data.
+
+1.Ture (correct)
+2.false
+
+Q31.Selector and Index are used for ______
+
+1.Creating Document
+2.Creating Databases
+3.Querying in databases (correct)
+4.Deleting Documents
+
+Q32.In Cloudant you can only configure Non-Partitioned database.
+
+1.True 
+2.false (correct)
+
+Q33.Example of Document type database.
+
+1.MongoDB (correct)
+2.ScyllaDB
+3.Neo4j
+4.JanusGraph
+
+Q34.Cloudant an example of Columnar database.
+
+1.true
+2.false (correct)
+
+Q35.With IAM Authentication user can only use Cloudant in IBM Cloud.
+
+1.true
+2.false (correct)

@@ -1,0 +1,2097 @@
+1. Which among the following regular expression specifies that password should contain at least one capital letter or one digit.
+
+A. /.*[A-Z].*/.test(password) && /.*[0-9].*/.test(password)
+B. /.*[A-Z].*/.test(password) || /.*[0-9].*/.test(password)
+C. /.*[A-Z][0-9].*/.test(password)
+D. None of the above
+View Answer
+
+Ans : B
+Explanation: This option is correct because, the regular expression will match if any characters from [A-Z] are there or any numbers from [0-9] are present in the password.
+
+
+2. Which of the following string will match the RegEx "((d).(dd))$"?
+
+A. 223.123
+B. 22.123
+C. 223.12
+D. 2.2
+View Answer
+
+Ans : C
+Explanation: This option is correct because, as per the given RegEx it can have any number of digits before the decimal point. But it should have only 2 digits after the decimal point.
+
+
+3. Consider the following JavaScript statement containing regular expressions and check if the pattern matches?
+var text = "lestfindcourse: 1, 2, 3";
+var pattern = /d+/g;
+
+A. text==pattern
+B. text.equals(pattern)
+C. text.test(pattern)
+D. pattern.test(text)
+View Answer
+
+Ans : D
+Explanation: The given patterns are applied to the text given in parentheses. Test () method test for a match in a string. This method is true if it finds a match, otherwise it is false.
+
+
+4. The regular expression to match any one character not between the brackets is __________
+
+A. [....]
+B. [^]
+C. [^...]
+D. [\D]
+View Answer
+
+Ans : C
+Explanation: RegExp defines a special set of characters that are used to manipulate strings and other variables. [^â€¦] Character class is used to match or draw a single character between brackets.
+
+
+5.  What would be the result of the following statement in JavaScript using regular expression methods?
+
+A. Returns ["123""456""789"]
+B. Returns ["123","456","789"]
+C. Returns [1,2,3,4,5,6,7,8,9]
+D. Throws an exception
+View Answer
+
+Ans : B
+Explanation: The split () method can take its arguments as regulars. The split () method typically breaks the string, on which it is called as a separator, the argument is used as a separator.
+
+
+6.  What will be the output of the following JavaScript code?
+System.out.println( Pattern.matches("[lfc]", "lets") );
+
+A. true
+B. false
+C. undefined
+D. l
+View Answer
+
+Ans : B
+Explanation: The pattern.matches method tests whether the regular expression matches the pattern. The above code will not result in a false as string "lets" is not among l , f, or c.
+
+
+7.  What will be the output of the following JavaScript code?
+System.out.println( Pattern.matches("[lfc]?", "l") );
+
+A. true
+B. false
+C. undefined
+D. l
+View Answer
+
+Ans : A
+Explanation: The pattern.matches method tests whether a regular expression matches a pattern. The method checks for single occurrence of any letter, and symbol ? Used with "[]" for single event testing.
+
+
+8.  What will be the output of the following JavaScript code?
+System.out.println( Pattern.matches("\d", "9") );
+
+A. true
+B. false
+C. undefined
+D. 9
+View Answer
+
+Ans : A
+Explanation: The above code test for single occurrence of digits. // d is returned once any digit is true.
+
+
+9.  What will be the output of the following JavaScript code?
+System.out.println( Pattern.matches("[^lfc]", "letsfind") );
+
+A. true
+B. false
+C. undefined
+D. l
+View Answer
+
+Ans : B
+Explanation: "^" Is used as a negation operator. The above code will be incorrect as "A" which is present in the string passed in the argument.
+
+
+10.  What will be the output of the following JavaScript code?
+System.out.println( Pattern.matches("[lfc]+", "f") );
+
+A. true
+B. false
+C. undefined
+D. 1
+View Answer
+
+Ans : A
+Explanation: "+" Sign in regex check if a particular character occurs more than once. This is true if a character from the set is present more than once.
+
+1.) How can you make a list that lists the items with numbers?
+a.) <ul>
+b.) <list>
+c.) <ol>  
+d.) <dl>
+View Answer / Hide Answer
+
+ANSWER: c.) <ol>
+
+
+
+
+2.) What is the correct HTML for making a checkbox?
+a.) <checkbox>
+b.) <input type="checkbox" />
+c.) <input type="check" />
+d.) <check>
+View Answer / Hide Answer
+
+ANSWER: b.) <input type="checkbox" />
+
+
+
+
+3.) What is the correct HTML for making a text input field?
+a.) <input type="textfield" />
+b.) <textinput type="text" />
+c.) <textfield>
+d.) <input type="text" />
+View Answer / Hide Answer
+
+ANSWER: d.) <input type="text" />
+
+
+
+
+4.) What is the correct HTML for making a drop-down list?
+a.) <input type="list" />
+b.) <select>
+c.) <list>
+d.) <input type="dropdown" />
+View Answer / Hide Answer
+
+ANSWER: b.) <select>
+
+
+
+
+5.) What is the correct HTML for making a text area?
+a.) <input type="textarea" />
+b.) <input type="textbox" />
+c.) <textarea>
+d.) None of these
+View Answer / Hide Answer
+
+ANSWER: c.) <textarea>
+
+
+
+
+6.) What is the correct HTML for inserting an image?
+a.) <image src="image.gif" alt="MyImage" />
+b.) <img href="image.gif" alt="MyImage" />
+c.) <img src="image.gif" alt="MyImage" />
+d.) <img alt="MyImage">image.gif
+View Answer / Hide Answer
+
+ANSWER: c.) <img src="image.gif" alt="MyImage" />
+
+
+
+
+7.) colspan=n can be added to only what tag?
+a.) <table>
+b.) <td>
+c.) <tr>
+d.) <thead>
+View Answer / Hide Answer
+
+ANSWER: b.) <td>
+
+
+
+
+8.) What tag adds a paragraph break after the text ?
+a.) <PARAGRAPH>  
+b.) <P>
+c.) <BR>
+d.) <pr>
+View Answer / Hide Answer
+
+ANSWER: b.) <P>
+
+
+
+
+9.) All HTML comment tags are enclosed in what ?
+a.) <>  
+b.) <? and ?>  
+c.) # and #  
+d.) <!-- and -->
+View Answer / Hide Answer
+
+ANSWER: d.) <!-- and -->
+
+
+
+
+10.) The TFOOT section of a table must appear before the TBODY section.
+a.) FALSE
+b.) TRUE
+View Answer / Hide Answer
+
+ANSWER: b.) TRUE
+
+1.) When you create a "recipient" hidden field for a form, which of the following is the ONLY correct way to type the word "recipient?":
+a.) Recipient
+b.) <recipient></recipient>
+c.) recipient
+d.) RECIPIENT
+View Answer / Hide Answer
+
+ANSWER: b.) <recipient></recipient>
+
+
+
+
+2.)Which file controls how your frames will appear?
+a.) Frameset
+b.) Master Document
+c.) Template
+d.) Timeline
+View Answer / Hide Answer
+
+ANSWER: a.) Frameset
+
+
+
+
+3.) What can't layers do if you want to convert them to tables?
+a.) Be close
+b.) Contain a Color
+c.) Be larger than the target table
+d.) Overlap
+View Answer / Hide Answer
+
+ANSWER: c.) Be larger than the target table
+
+
+
+
+4.) Which HTML tag is used to define an internal style sheet?
+a.) <script>
+b.) <css>
+c.) none of them
+d.) <style>
+View Answer / Hide Answer
+
+ANSWER: d.) <style>
+
+
+
+
+5.) Which HTML attribute is used to define inline styles?
+a.) font
+b.) class
+c.) styles
+d.) style
+View Answer / Hide Answer
+
+ANSWER: c.) styles
+
+
+
+
+6.) Which is the correct CSS syntax?
+a.) body:color=black
+b.) {body;color:black}
+c.) {body:color=black(body}
+d.) body {color: black}
+View Answer / Hide Answer
+
+ANSWER: d.) body {color: black}
+
+
+
+
+7.) How do you change the text color of an element?
+a.) text-color=
+b.) text-color:
+c.) color:
+d.) fgcolor:
+View Answer / Hide Answer
+
+ANSWER: c.) color:
+
+
+
+
+8.) How do you display hyperlinks without an underline?
+a.) a {text-decoration:none}
+b.) a {underline:none}
+c.) a {text-decoration:no underline}
+d.) a {decoration:no underline}
+View Answer / Hide Answer
+
+ANSWER: a.) a {text-decoration:none}
+
+
+
+
+9.) How do you change the font of an element?
+a.) font=
+b.) f:
+c.) font-family:
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: c.) font-family:
+
+
+
+
+10.) How do you change the left margin of an element?
+a.) text-indent:
+b.) margin:
+c.) margin-left:
+d.) indent:
+View Answer / Hide Answer
+
+ANSWER: c.) margin-left:
+
+1.) Using _______ statement is how you test for a specific condition.
+a.) Select
+b.) If
+c.) Switch
+d.) For
+View Answer / Hide Answer
+
+ANSWER: b.) If
+
+
+
+
+3.) How to create a Date object in JavaScript?
+a.) dateObjectName = new Date([parameters])
+b.) dateObjectName.new Date([parameters])
+c.) dateObjectName := new Date([parameters])
+d.) dateObjectName Date([parameters])
+View Answer / Hide Answer
+
+ANSWER: a.) dateObjectName = new Date([parameters])
+
+
+
+
+4.) The _______ method of an Array object adds and/or removes elements from an array.
+a.) Reverse
+b.) Shift
+c.) Slice
+d.) Splice
+View Answer / Hide Answer
+
+ANSWER: d.) Splice
+
+
+
+
+5.) To set up the window to capture all Click events, we use which of the following statement?
+a.) window.captureEvents(Event.CLICK);
+b.) window.handleEvents (Event.CLICK);
+c.) window.routeEvents(Event.CLICK );
+d.) window.raiseEvents(Event.CLICK );
+View Answer / Hide Answer
+
+ANSWER: a.) window.captureEvents(Event.CLICK);
+
+
+
+
+6.) Who is making the Web standards?
+a.) Mozilla
+b.) Microsoft
+c.) The World Wide Web Consortium
+d.) NVDIA
+View Answer / Hide Answer
+
+ANSWER: c.) The World Wide Web Consortium
+
+
+
+
+7.) Choose the correct HTML tag for the largest heading
+a.) <h6>
+b.) <heading>
+c.) <head>
+d.) <h1>
+View Answer / Hide Answer
+
+ANSWER: d.) <h1>
+
+
+
+
+8.) What is the correct HTML tag for inserting a line break?
+a.) <br />
+b.) <break />
+c.) <lb />
+d.) <nbsp>
+View Answer / Hide Answer
+
+ANSWER: a.) <br />
+
+
+
+
+9.) Can a data cell contain images?
+a.) yes
+b.)no
+View Answer / Hide Answer
+
+ANSWER: a.) yes
+
+
+
+
+10.) How do I add scrolling text to my page?
+a.) <scroll>
+b.) <marquee>
+c.) <ciruler>
+d.) <tab>
+View Answer / Hide Answer
+
+ANSWER: b.) <marquee>
+
+1.) What is the preferred way for adding a background color in HTML?
+a.) <body background="yellow">
+b.) <background>yellow</background>
+c.) < body style="background-color:yellow">
+d.) <background color="yellow">text<background>
+View Answer / Hide Answer
+
+ANSWER: c.) < body style="background-color:yellow">
+
+
+
+
+2.) What is the correct HTML for creating a hyperlink?
+a.) <a name="">A</a>
+b.) <a>B</a>
+c.) <a href="http://www.example.com">example</a>
+d.) <a url="http://www.example.com">example</a>
+View Answer / Hide Answer
+
+ANSWER: c.) <a href="http://www.example.com">example</a>
+
+
+
+
+3.) How can you create an e-mail link?
+a.) <mail href="a@b">
+b.) <mail>a@b</mail>
+c.) <a href="a@b">
+d.) <a href="mailto:a@b.com">
+View Answer / Hide Answer
+
+ANSWER: d.) <a href="mailto:a@b.com">
+
+
+
+
+4.) How can you open a link in a new browser window?
+a.) <a href="url" new>
+b.) <a href="url" target="new">
+c.) <a href="url" target="_blank">
+d.) <a href="url" target="">
+View Answer / Hide Answer
+
+ANSWER: c.) <a href="url" target="_blank">
+
+
+
+
+5.) Which of these tags are all <table> tags?
+a.) <table><head><tfoot>
+b.) <table><tr><td>
+c.) <table><tr><tt>
+d.) <thead><body><tr>
+View Answer / Hide Answer
+
+ANSWER: b.) <table><tr><td>
+
+
+
+
+6.) Which of the following JavaScript cannot do?
+a.) JavaScript can react to events
+b.) JavaScript can manipulate HTML elements
+c.) JavaScript can be use to validate data
+d.) All of the Above
+View Answer / Hide Answer
+
+ANSWER: d.) All of the Above
+
+
+
+
+7.) Whats so great about XML?
+a.) Easy data exchange
+b.) High speed on network
+c.) Only B.is correct
+d.) Both A & B
+View Answer / Hide Answer
+
+ANSWER: d.) Both A & B
+
+
+
+
+8.) Which is not a property of attribute Behaviour of <Marquee> tag?
+a.) alternate
+b.) blur
+c.) scroll
+d.) slide
+View Answer / Hide Answer
+
+ANSWER: b.) blur
+
+
+
+
+9.) _________ keyword is used to declare variables in javascript.
+a.) Var
+b.) Dim
+c.) String
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: a.) Var
+
+
+
+
+10.) The attribute used to define a new namespace is.
+a.) XMLNS
+b.) XmlNameSpace
+c.) Xmlns
+d.) XmlNs
+View Answer / Hide Answer
+
+ANSWER: c.) Xmlns
+
+1.) To match the root node in XMLT transform the syntax will be.
+a.) <xsl:template match="Document">
+b.) <xsl:template match="Root">
+c.) <xsl:template match="RootNode">
+d.) <xsl:template match="/">
+View Answer / Hide Answer
+
+ANSWER: d.) <xsl:template match="/">
+
+
+
+
+2.) To match the specific XML elements child like of parent element is the syntax will be.
+a.) <xsl:template match="PLANET_NAME">
+b.) <xsl:template match="PLANET/NAME">
+c.) <xsl:template match="/NAME">
+d.) <xsl:template match="//">
+View Answer / Hide Answer
+
+ANSWER: b.) <xsl:template match="PLANET/NAME">
+
+
+
+
+3.) Which of the following options is correct with regard to HTML?
+a.) It is a modelling language
+b.) It is a scripting language
+c.) It is a partial programming language
+d.) It is used to structure documents
+View Answer / Hide Answer
+
+ANSWER: d.) It is used to structure documents
+
+
+
+
+4.) Which CSS property can provide to add an effect when changing from one style to another,without using Flash animations or javascript?
+a.) Associations
+b.) Transitions
+c.) Transistor
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: b.) Transitions
+
+
+
+
+5.) Which browser can supports the transition property?
+a.) Internet Explorer 10
+b.) Firefox
+c.) Chrome
+d.) All of the above
+View Answer / Hide Answer
+
+ANSWER: d.) All of the above
+
+
+
+
+6.) Which tag(s) can handle mouse events in Netscape?
+a.) <IMG>
+b.) <A>
+c.) <BR>
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: b.) <A>
+
+
+
+
+7.) ____________ is the tainted property of a window object.
+a.) Pathname
+b.) Protocol
+c.) Defaultstatus
+d.) Host
+View Answer / Hide Answer
+
+ANSWER: c.) Defaultstatus
+
+
+
+
+8.) To enable data tainting, the end user sets the _________ environment variable.
+a.) ENABLE_TAINT
+b.) MS_ENABLE_TAINT
+c.) NS_ENABLE_TAINT
+d.) ENABLE_TAINT_NS
+View Answer / Hide Answer
+
+ANSWER: c.) NS_ENABLE_TAINT
+
+
+
+
+9.) In JavaScript, _________ is an object of the target language data type that encloses an object of the source language.
+a.) a wrapper
+b.) a link
+c.) a cursor
+d.) a form
+View Answer / Hide Answer
+
+ANSWER: a.) a wrapper
+
+
+
+
+10) When a JavaScript object is sent to Java, the runtime engine creates a Java wrapper of type
+a.) ScriptObject
+b.) JSObject
+c.) JavaObject
+d.) Jobject
+View Answer / Hide Answer
+
+ANSWER: b.) JSObject
+
+1.) How can you make a list that lists the items with numbers?
+a.) <ul>
+b.) <list>
+c.) <ol>  
+d.) <dl>
+View Answer / Hide Answer
+
+ANSWER: c.) <ol>
+
+
+
+
+2.) What is the correct HTML for making a checkbox?
+a.) <checkbox>
+b.) <input type="checkbox" />
+c.) <input type="check" />
+d.) <check>
+View Answer / Hide Answer
+
+ANSWER: b.) <input type="checkbox" />
+
+
+
+
+3.) What is the correct HTML for making a text input field?
+a.) <input type="textfield" />
+b.) <textinput type="text" />
+c.) <textfield>
+d.) <input type="text" />
+View Answer / Hide Answer
+
+ANSWER: d.) <input type="text" />
+
+
+
+
+4.) What is the correct HTML for making a drop-down list?
+a.) <input type="list" />
+b.) <select>
+c.) <list>
+d.) <input type="dropdown" />
+View Answer / Hide Answer
+
+ANSWER: b.) <select>
+
+
+
+
+5.) What is the correct HTML for making a text area?
+a.) <input type="textarea" />
+b.) <input type="textbox" />
+c.) <textarea>
+d.) None of these
+View Answer / Hide Answer
+
+ANSWER: c.) <textarea>
+
+
+
+
+6.) What is the correct HTML for inserting an image?
+a.) <image src="image.gif" alt="MyImage" />
+b.) <img href="image.gif" alt="MyImage" />
+c.) <img src="image.gif" alt="MyImage" />
+d.) <img alt="MyImage">image.gif
+View Answer / Hide Answer
+
+ANSWER: c.) <img src="image.gif" alt="MyImage" />
+
+
+
+
+7.) colspan=n can be added to only what tag?
+a.) <table>
+b.) <td>
+c.) <tr>
+d.) <thead>
+View Answer / Hide Answer
+
+ANSWER: b.) <td>
+
+
+
+
+8.) What tag adds a paragraph break after the text ?
+a.) <PARAGRAPH>  
+b.) <P>
+c.) <BR>
+d.) <pr>
+View Answer / Hide Answer
+
+ANSWER: b.) <P>
+
+
+
+
+9.) All HTML comment tags are enclosed in what ?
+a.) <>  
+b.) <? and ?>  
+c.) # and #  
+d.) <!-- and -->
+View Answer / Hide Answer
+
+ANSWER: d.) <!-- and -->
+
+
+
+
+10.) The TFOOT section of a table must appear before the TBODY section.
+a.) FALSE
+b.) TRUE
+View Answer / Hide Answer
+
+ANSWER: b.) TRUE
+
+1.) ActiveX can be disabled via browser settings.
+a.) TRUE
+b.) FALSE
+View Answer / Hide Answer
+
+ANSWER: a.) TRUE
+
+
+
+
+2.) What do you add to a template in order to control where page content goes?
+a.) Text Frames
+b.) HTML Controllers
+c.) Editable Regions
+d.) Page Content Controllers
+View Answer / Hide Answer
+
+ANSWER: c.) Editable Regions
+
+
+
+
+3.) Which of the following is NOT a Style?
+a.) Linked
+b.) Embedded
+c.) Inline
+d.)Orthogonal
+View Answer / Hide Answer
+
+ANSWER: d.)Orthogonal
+
+
+
+
+4.) Which of the following is NOT a Hotspot tool?
+a.) Orthogonal Hotspot Tool
+b.) Rectangular Hotspot Tool
+c.) Oval Hotspot Tool
+d.) Polygon Hotspot Tool
+View Answer / Hide Answer
+
+ANSWER: a.) Orthogonal Hotspot Tool
+
+
+
+
+5.) Which of the following is not supported by older browsers?
+a.) CSS
+b.) Layers
+c.) Frames
+d.) All of the above
+View Answer / Hide Answer
+
+ANSWER: d.) All of the above
+
+
+
+
+6.) Which of the following is the HTML tag to start a Heading Level 3?
+a.) <H3>
+b.) </H3>
+c.) <#H3>
+d.) <H3/>
+View Answer / Hide Answer
+
+ANSWER: a.) <H3>
+
+
+
+
+7.) Which type of style should you use if you want to use the formats on multiple pages?
+a.) Linked
+b.) Embedded
+c.) Inline
+d.) Orthogonal
+View Answer / Hide Answer
+
+ANSWER: a.) Linked
+
+
+
+
+8.) Orkut.com is owned by ___________
+a.) Google
+b.) Yahoo
+c.) Microsoft
+d.) Apple
+View Answer / Hide Answer
+
+ANSWER: a.) Google
+
+
+
+
+9.) What is the correct HTML for referring to an external style sheet?
+a.) <style src="mystyle.css">
+b.) <stylesheet>mystyle.css
+c.) <link rel="stylesheet" type="text/css" href="mystyle.css">
+View Answer / Hide Answer
+
+ANSWER: c.) <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+
+
+
+10.) Where in an HTML document is the correct place to refer to an external style sheet?
+a.) At the top of the document
+b.) At the end of the document
+c.) In the section
+d.) In the <head> section
+View Answer / Hide Answer
+
+ANSWER: d.) In the <head> section
+
+1.) What would be the colours of the RGB where the hexadecimal values are #FF0000, #00FF00 and #0000FF respectively?
+a.) Blue, Green, Red
+b.) Green, Blue, Red
+c.) Red, Blue, Green
+d.) Red, Green, Blue
+View Answer / Hide Answer
+
+ANSWER: d.) Red, Green, Blue
+
+
+
+
+2.) Identify the most accurate statement about the application of XML:
+a.) XML must be used to produce XML and HTML output
+b.) XML cannot specify or contain presentation information
+c.) XML is used to describe hierarchically organized information
+d.) XML performs the conversion of information between different e-business applications
+View Answer / Hide Answer
+
+ANSWER: c.) XML is used to describe hierarchically organized information
+
+
+
+
+3.) The elements <DIV> and <SPAN> have the following characteristics
+a.) Element <DIV> inherits properties defined for <SPAN> in a stylesheet
+b.) Elements <SPAN> and <DIV> define content to be inline or block-level
+c.) <DIV> and <SPAN> are used as alternatives for the element <P>
+d.) <DIV> is used inside element <P>.
+View Answer / Hide Answer
+
+ANSWER: b.) Elements <SPAN> and <DIV> define content to be inline or block-level
+
+
+
+
+4.) Which of the following statement is not true regarding JavaScript?
+a.) JavaScript is an object-based language
+b.) JavaScript is event driven
+c.) JavaScript is a loosely typed language
+d.) A JavaScript embedded in an HTML document is compiled and executed by the client browser
+View Answer / Hide Answer
+
+ANSWER: d.) A JavaScript embedded in an HTML document is compiled and executed by the client browser
+
+
+
+
+5.) The following is a web-page:
+
+<html>
+<head> <title>JavaScript </head>
+<body bgcolor=""#0000ff"">
+<script language=""JavaScript"">
+<!-- document.write(""<h1> hello world </h1>""); //-->
+</script>
+</body>
+</html>
+
+When the above web page is loaded into a browser, what will happen?
+
+a.) The body of the web page will not contain any text
+b.) The body of the web page will contain the text "hello world" as an H1 heading
+c.) The background color of the web page will be green
+d.) document.write("<h1> hello world </h1 >"); is a comment.
+View Answer / Hide Answer
+
+ANSWER: a.) The body of the web page will not contain any text
+
+
+
+
+6.) While working on a JavaScript project, in your JavaScript application, which function would you use to send messages to users requesting for text input?
+a.) Display() 
+b.) Prompt()
+c.) Alert() 
+d.) Confirm()
+View Answer / Hide Answer
+
+ANSWER: b.) Prompt()
+
+
+
+
+7.) Which property does one use to align text to the right side of a block-level element in Cascading Style Sheets?
+a.) horizontal-align 
+b.) align 
+c.) block-align 
+d.) text-align
+View Answer / Hide Answer
+
+ANSWER: d.) text-align
+
+
+
+
+8.) A ________ object is a reference to one of the classes in a Java package, such as netscape.javascript .
+a.) JavaArray
+b.) JavaClass
+c.) JavaObject
+d.) JavaPackage
+View Answer / Hide Answer
+
+ANSWER: b.) JavaClass
+
+
+
+
+9.) The JavaScript exception is available to the Java code as an instance of __________
+a.) netscape.javascript.JSObject
+b.) netscape.javascript.JSException
+c.) netscape.plugin.JSException
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: b.) netscape.javascript.JSException
+
+
+
+
+10.) Which of the following statements is false about event handlers in JavaScript?
+a.) They can be included with input tags
+b.) They can be associated with end of file processing for a database application
+c.) They can be included with the form tag
+d.) They are generally used to call functions when triggered
+View Answer / Hide Answer
+
+ANSWER: b.) They can be associated with end of file processing for a database application
+
+1.) The trick to getting a ball to bounce around a Web page is to:
+a.) Add AnimationBounce layers
+b.) Add keyframes to the timeline
+c.) Add Bounce parameters to the Object properties
+d.) Dreamweaver does not support animation... use Flash instead
+View Answer / Hide Answer
+
+ANSWER: b.) Add keyframes to the timeline
+
+
+
+
+2.) By default, what's the Fps shown on the timeline?
+a.) 15
+b.) 1
+c.) 20
+d.) huh?
+View Answer / Hide Answer
+
+ANSWER: a.) 15
+
+
+
+
+3.) Which of the following is false?
+a.) The Site Map can be saved as an image
+b.) You can FTP files using Dreamweaver
+c.) You can create forms in Dreamweaver
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: d.) None of the above
+
+
+
+
+4.) When trying to access a URL, the following message is displayed on the browser:
+
+Server; Error 403.
+
+What could be the reason for the message?
+
+a.) The requested HTML file is not available
+b.) The path to the interpreter of the script file is invalid
+c.) The first line of the output from the script is not a valid HTTP header
+d.) The requested HTML file or CGI script has insufficient permission
+View Answer / Hide Answer
+
+ANSWER: d.) The requested HTML file or CGI script has insufficient permission
+
+
+
+
+5.) Dreamweaver users work in the Document Window using one of how many views?
+a.) 3
+b.) 5
+c.) 2
+d.) 8
+View Answer / Hide Answer
+
+ANSWER: a.) 3
+
+
+
+
+6.) The general definition of a(n) ____ is a set of linked documents with shared attributes, such as related topics, a similar design, or a shared purpose.
+a.) index
+b.) website
+c.) Internet
+d.) Homepage
+View Answer / Hide Answer
+
+ANSWER: b.) website
+
+
+
+
+7.) What type of technology allows you to verbally speak with someone over the Internet?
+a.) Wiki
+b.) Social network
+c.) Ephone
+d.) VoIP
+View Answer / Hide Answer
+
+ANSWER: d.) VoIP
+
+
+
+
+8.) Dreamweaver's ____ feature allows users to select colors and make perfect color matches.
+a.) Color Cube
+b.) Palattes
+c.) HTML view
+d.) Eye dropper
+View Answer / Hide Answer
+
+ANSWER: d.) Eye dropper
+
+
+
+
+9.) A Web site's home page is normally named home.htm or home.html
+a.) TRUE
+b.) FALSE
+View Answer / Hide Answer
+
+ANSWER: b.) FALSE
+
+
+
+
+10.) _________ view is a hand-coding environment for writing and editing code
+a.) Design
+b.) Split
+c.) Code
+View Answer / Hide Answer
+
+ANSWER: c.) Code
+
+1.) iframe in HTML is used to display a web page within a web page.
+a.) TRUE
+b.) FALSE
+View Answer / Hide Answer
+
+ANSWER: a.) TRUE
+
+
+
+
+2.) Using which tag we insert an JavaScript in HTML page?
+a.) <JavaScript type="text/javascript">
+b.) <script type="text/javascript">
+c.) <JScript type="text/javascript">
+d.) <HTMLScript type="text/javascript">
+View Answer / Hide Answer
+
+ANSWER: b.) <script type="text/javascript">
+
+
+
+
+3.) Which of the following is true about links by default?
+a.) An unvisited link is underlined and blue
+b.) A visited link is underlined and red
+c.) An active link is underlined and purple
+d.) All the above
+View Answer / Hide Answer
+
+ANSWER: a.) An unvisited link is underlined and blue
+
+
+
+
+4.) The href attribute in the link tag specifies the:
+a.) Destination of a link
+b.) Link
+c.) Hypertext
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: a.) Destination of a link
+
+
+
+
+5.) HTML Event Attributes onload fires just before the page is finishing loading.
+a.) TRUE
+b.) FALSE
+View Answer / Hide Answer
+
+ANSWER: b.) FALSE
+
+
+
+
+6.) HTML Event Attributes onunload fires
+a.) When the browser window has been closed
+b.) When the browser window is minimized
+c.) When the browser window has changed focus to other window
+d.) After the page is finished loading
+View Answer / Hide Answer
+
+ANSWER: a.) When the browser window has been closed
+
+
+
+
+7.) HTML Form Events ___________, fires the moment that the element loses focus.
+a.) onblur
+b.) onfocus
+c.) onchange
+d.) onlostfocus
+View Answer / Hide Answer
+
+ANSWER: a.) onblur
+
+
+
+
+8.) Twitter limits the number of characters per tweet is ?
+a.) 130
+b.) 160
+c.) 124
+d.) 140
+View Answer / Hide Answer
+
+ANSWER: d.) 140
+
+
+
+
+9.) What is cell padding?
+a.) Used to separate cell walls from their contents
+b.) Used to set space between cells
+c.) Both a and b above
+d.) Used to provide width to a cell
+View Answer / Hide Answer
+
+ANSWER: a.) Used to separate cell walls from their contents
+
+
+
+
+10.) What are meta tags used for?
+a.) To store information usually relevant to browsers and search engines
+b.) To only store information usually relevant to browsers
+c.) To only store information about search engines
+d.) To store information about external links
+View Answer / Hide Answer
+
+ANSWER: a.) To store information usually relevant to browsers and search engines
+
+1.) When you create a "recipient" hidden field for a form, which of the following is the ONLY correct way to type the word "recipient?":
+a.) Recipient
+b.) <recipient></recipient>
+c.) recipient
+d.) RECIPIENT
+View Answer / Hide Answer
+
+ANSWER: b.) <recipient></recipient>
+
+
+
+
+2.)Which file controls how your frames will appear?
+a.) Frameset
+b.) Master Document
+c.) Template
+d.) Timeline
+View Answer / Hide Answer
+
+ANSWER: a.) Frameset
+
+
+
+
+3.) What can't layers do if you want to convert them to tables?
+a.) Be close
+b.) Contain a Color
+c.) Be larger than the target table
+d.) Overlap
+View Answer / Hide Answer
+
+ANSWER: c.) Be larger than the target table
+
+
+
+
+4.) Which HTML tag is used to define an internal style sheet?
+a.) <script>
+b.) <css>
+c.) none of them
+d.) <style>
+View Answer / Hide Answer
+
+ANSWER: d.) <style>
+
+
+
+
+5.) Which HTML attribute is used to define inline styles?
+a.) font
+b.) class
+c.) styles
+d.) style
+View Answer / Hide Answer
+
+ANSWER: c.) styles
+
+
+
+
+6.) Which is the correct CSS syntax?
+a.) body:color=black
+b.) {body;color:black}
+c.) {body:color=black(body}
+d.) body {color: black}
+View Answer / Hide Answer
+
+ANSWER: d.) body {color: black}
+
+
+
+
+7.) How do you change the text color of an element?
+a.) text-color=
+b.) text-color:
+c.) color:
+d.) fgcolor:
+View Answer / Hide Answer
+
+ANSWER: c.) color:
+
+
+
+
+8.) How do you display hyperlinks without an underline?
+a.) a {text-decoration:none}
+b.) a {underline:none}
+c.) a {text-decoration:no underline}
+d.) a {decoration:no underline}
+View Answer / Hide Answer
+
+ANSWER: a.) a {text-decoration:none}
+
+
+
+
+9.) How do you change the font of an element?
+a.) font=
+b.) f:
+c.) font-family:
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: c.) font-family:
+
+
+
+
+10.) How do you change the left margin of an element?
+a.) text-indent:
+b.) margin:
+c.) margin-left:
+d.) indent:
+View Answer / Hide Answer
+
+ANSWER: c.) margin-left
+
+1.) Using _______ statement is how you test for a specific condition.
+a.) Select
+b.) If
+c.) Switch
+d.) For
+View Answer / Hide Answer
+
+ANSWER: b.) If
+
+
+
+
+3.) How to create a Date object in JavaScript?
+a.) dateObjectName = new Date([parameters])
+b.) dateObjectName.new Date([parameters])
+c.) dateObjectName := new Date([parameters])
+d.) dateObjectName Date([parameters])
+View Answer / Hide Answer
+
+ANSWER: a.) dateObjectName = new Date([parameters])
+
+
+
+
+4.) The _______ method of an Array object adds and/or removes elements from an array.
+a.) Reverse
+b.) Shift
+c.) Slice
+d.) Splice
+View Answer / Hide Answer
+
+ANSWER: d.) Splice
+
+
+
+
+5.) To set up the window to capture all Click events, we use which of the following statement?
+a.) window.captureEvents(Event.CLICK);
+b.) window.handleEvents (Event.CLICK);
+c.) window.routeEvents(Event.CLICK );
+d.) window.raiseEvents(Event.CLICK );
+View Answer / Hide Answer
+
+ANSWER: a.) window.captureEvents(Event.CLICK);
+
+
+
+
+6.) Who is making the Web standards?
+a.) Mozilla
+b.) Microsoft
+c.) The World Wide Web Consortium
+d.) NVDIA
+View Answer / Hide Answer
+
+ANSWER: c.) The World Wide Web Consortium
+
+
+
+
+7.) Choose the correct HTML tag for the largest heading
+a.) <h6>
+b.) <heading>
+c.) <head>
+d.) <h1>
+View Answer / Hide Answer
+
+ANSWER: d.) <h1>
+
+
+
+
+8.) What is the correct HTML tag for inserting a line break?
+a.) <br />
+b.) <break />
+c.) <lb />
+d.) <nbsp>
+View Answer / Hide Answer
+
+ANSWER: a.) <br />
+
+
+
+
+9.) Can a data cell contain images?
+a.) yes
+b.)no
+View Answer / Hide Answer
+
+ANSWER: a.) yes
+
+
+
+
+10.) How do I add scrolling text to my page?
+a.) <scroll>
+b.) <marquee>
+c.) <ciruler>
+d.) <tab>
+View Answer / Hide Answer
+
+ANSWER: b.) <marquee>
+
+1.) What is the preferred way for adding a background color in HTML?
+a.) <body background="yellow">
+b.) <background>yellow</background>
+c.) < body style="background-color:yellow">
+d.) <background color="yellow">text<background>
+View Answer / Hide Answer
+
+ANSWER: c.) < body style="background-color:yellow">
+
+
+
+
+2.) What is the correct HTML for creating a hyperlink?
+a.) <a name="">A</a>
+b.) <a>B</a>
+c.) <a href="http://www.example.com">example</a>
+d.) <a url="http://www.example.com">example</a>
+View Answer / Hide Answer
+
+ANSWER: c.) <a href="http://www.example.com">example</a>
+
+
+
+
+3.) How can you create an e-mail link?
+a.) <mail href="a@b">
+b.) <mail>a@b</mail>
+c.) <a href="a@b">
+d.) <a href="mailto:a@b.com">
+View Answer / Hide Answer
+
+ANSWER: d.) <a href="mailto:a@b.com">
+
+
+
+
+4.) How can you open a link in a new browser window?
+a.) <a href="url" new>
+b.) <a href="url" target="new">
+c.) <a href="url" target="_blank">
+d.) <a href="url" target="">
+View Answer / Hide Answer
+
+ANSWER: c.) <a href="url" target="_blank">
+
+
+
+
+5.) Which of these tags are all <table> tags?
+a.) <table><head><tfoot>
+b.) <table><tr><td>
+c.) <table><tr><tt>
+d.) <thead><body><tr>
+View Answer / Hide Answer
+
+ANSWER: b.) <table><tr><td>
+
+
+
+
+6.) Which of the following JavaScript cannot do?
+a.) JavaScript can react to events
+b.) JavaScript can manipulate HTML elements
+c.) JavaScript can be use to validate data
+d.) All of the Above
+View Answer / Hide Answer
+
+ANSWER: d.) All of the Above
+
+
+
+
+7.) Whats so great about XML?
+a.) Easy data exchange
+b.) High speed on network
+c.) Only B.is correct
+d.) Both A & B
+View Answer / Hide Answer
+
+ANSWER: d.) Both A & B
+
+
+
+
+8.) Which is not a property of attribute Behaviour of <Marquee> tag?
+a.) alternate
+b.) blur
+c.) scroll
+d.) slide
+View Answer / Hide Answer
+
+ANSWER: b.) blur
+
+
+
+
+9.) _________ keyword is used to declare variables in javascript.
+a.) Var
+b.) Dim
+c.) String
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: a.) Var
+
+
+
+
+10.) The attribute used to define a new namespace is.
+a.) XMLNS
+b.) XmlNameSpace
+c.) Xmlns
+d.) XmlNs
+View Answer / Hide Answer
+
+ANSWER: c.) Xmlns
+
+1.) To match the root node in XMLT transform the syntax will be.
+a.) <xsl:template match="Document">
+b.) <xsl:template match="Root">
+c.) <xsl:template match="RootNode">
+d.) <xsl:template match="/">
+View Answer / Hide Answer
+
+ANSWER: d.) <xsl:template match="/">
+
+
+
+
+2.) To match the specific XML elements child like of parent element is the syntax will be.
+a.) <xsl:template match="PLANET_NAME">
+b.) <xsl:template match="PLANET/NAME">
+c.) <xsl:template match="/NAME">
+d.) <xsl:template match="//">
+View Answer / Hide Answer
+
+ANSWER: b.) <xsl:template match="PLANET/NAME">
+
+
+
+
+3.) Which of the following options is correct with regard to HTML?
+a.) It is a modelling language
+b.) It is a scripting language
+c.) It is a partial programming language
+d.) It is used to structure documents
+View Answer / Hide Answer
+
+ANSWER: d.) It is used to structure documents
+
+
+
+
+4.) Which CSS property can provide to add an effect when changing from one style to another,without using Flash animations or javascript?
+a.) Associations
+b.) Transitions
+c.) Transistor
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: b.) Transitions
+
+
+
+
+5.) Which browser can supports the transition property?
+a.) Internet Explorer 10
+b.) Firefox
+c.) Chrome
+d.) All of the above
+View Answer / Hide Answer
+
+ANSWER: d.) All of the above
+
+
+
+
+6.) Which tag(s) can handle mouse events in Netscape?
+a.) <IMG>
+b.) <A>
+c.) <BR>
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: b.) <A>
+
+
+
+
+7.) ____________ is the tainted property of a window object.
+a.) Pathname
+b.) Protocol
+c.) Defaultstatus
+d.) Host
+View Answer / Hide Answer
+
+ANSWER: c.) Defaultstatus
+
+
+
+
+8.) To enable data tainting, the end user sets the _________ environment variable.
+a.) ENABLE_TAINT
+b.) MS_ENABLE_TAINT
+c.) NS_ENABLE_TAINT
+d.) ENABLE_TAINT_NS
+View Answer / Hide Answer
+
+ANSWER: c.) NS_ENABLE_TAINT
+
+
+
+
+9.) In JavaScript, _________ is an object of the target language data type that encloses an object of the source language.
+a.) a wrapper
+b.) a link
+c.) a cursor
+d.) a form
+View Answer / Hide Answer
+
+ANSWER: a.) a wrapper
+
+
+
+
+10) When a JavaScript object is sent to Java, the runtime engine creates a Java wrapper of type
+a.) ScriptObject
+b.) JSObject
+c.) JavaObject
+d.) Jobject
+View Answer / Hide Answer
+
+ANSWER: b.) JSObject
+
+1.) How can you make a list that lists the items with numbers?
+a.) <ul>
+b.) <list>
+c.) <ol>  
+d.) <dl>
+View Answer / Hide Answer
+
+ANSWER: c.) <ol>
+
+
+
+
+2.) What is the correct HTML for making a checkbox?
+a.) <checkbox>
+b.) <input type="checkbox" />
+c.) <input type="check" />
+d.) <check>
+View Answer / Hide Answer
+
+ANSWER: b.) <input type="checkbox" />
+
+
+
+
+3.) What is the correct HTML for making a text input field?
+a.) <input type="textfield" />
+b.) <textinput type="text" />
+c.) <textfield>
+d.) <input type="text" />
+View Answer / Hide Answer
+
+ANSWER: d.) <input type="text" />
+
+
+
+
+4.) What is the correct HTML for making a drop-down list?
+a.) <input type="list" />
+b.) <select>
+c.) <list>
+d.) <input type="dropdown" />
+View Answer / Hide Answer
+
+ANSWER: b.) <select>
+
+
+
+
+5.) What is the correct HTML for making a text area?
+a.) <input type="textarea" />
+b.) <input type="textbox" />
+c.) <textarea>
+d.) None of these
+View Answer / Hide Answer
+
+ANSWER: c.) <textarea>
+
+
+
+
+6.) What is the correct HTML for inserting an image?
+a.) <image src="image.gif" alt="MyImage" />
+b.) <img href="image.gif" alt="MyImage" />
+c.) <img src="image.gif" alt="MyImage" />
+d.) <img alt="MyImage">image.gif
+View Answer / Hide Answer
+
+ANSWER: c.) <img src="image.gif" alt="MyImage" />
+
+
+
+
+7.) colspan=n can be added to only what tag?
+a.) <table>
+b.) <td>
+c.) <tr>
+d.) <thead>
+View Answer / Hide Answer
+
+ANSWER: b.) <td>
+
+
+
+
+8.) What tag adds a paragraph break after the text ?
+a.) <PARAGRAPH>  
+b.) <P>
+c.) <BR>
+d.) <pr>
+View Answer / Hide Answer
+
+ANSWER: b.) <P>
+
+
+
+
+9.) All HTML comment tags are enclosed in what ?
+a.) <>  
+b.) <? and ?>  
+c.) # and #  
+d.) <!-- and -->
+View Answer / Hide Answer
+
+ANSWER: d.) <!-- and -->
+
+
+
+
+10.) The TFOOT section of a table must appear before the TBODY section.
+a.) FALSE
+b.) TRUE
+View Answer / Hide Answer
+
+ANSWER: b.) TRUE
+
+1.) What would be the colours of the RGB where the hexadecimal values are #FF0000, #00FF00 and #0000FF respectively?
+a.) Blue, Green, Red
+b.) Green, Blue, Red
+c.) Red, Blue, Green
+d.) Red, Green, Blue
+View Answer / Hide Answer
+
+ANSWER: d.) Red, Green, Blue
+
+
+
+
+2.) Identify the most accurate statement about the application of XML:
+a.) XML must be used to produce XML and HTML output
+b.) XML cannot specify or contain presentation information
+c.) XML is used to describe hierarchically organized information
+d.) XML performs the conversion of information between different e-business applications
+View Answer / Hide Answer
+
+ANSWER: c.) XML is used to describe hierarchically organized information
+
+
+
+
+3.) The elements <DIV> and <SPAN> have the following characteristics
+a.) Element <DIV> inherits properties defined for <SPAN> in a stylesheet
+b.) Elements <SPAN> and <DIV> define content to be inline or block-level
+c.) <DIV> and <SPAN> are used as alternatives for the element <P>
+d.) <DIV> is used inside element <P>.
+View Answer / Hide Answer
+
+ANSWER: b.) Elements <SPAN> and <DIV> define content to be inline or block-level
+
+
+
+
+4.) Which of the following statement is not true regarding JavaScript?
+a.) JavaScript is an object-based language
+b.) JavaScript is event driven
+c.) JavaScript is a loosely typed language
+d.) A JavaScript embedded in an HTML document is compiled and executed by the client browser
+View Answer / Hide Answer
+
+ANSWER: d.) A JavaScript embedded in an HTML document is compiled and executed by the client browser
+
+
+
+
+5.) The following is a web-page:
+
+<html>
+<head> <title>JavaScript </head>
+<body bgcolor=""#0000ff"">
+<script language=""JavaScript"">
+<!-- document.write(""<h1> hello world </h1>""); //-->
+</script>
+</body>
+</html>
+
+When the above web page is loaded into a browser, what will happen?
+
+a.) The body of the web page will not contain any text
+b.) The body of the web page will contain the text "hello world" as an H1 heading
+c.) The background color of the web page will be green
+d.) document.write("<h1> hello world </h1 >"); is a comment.
+View Answer / Hide Answer
+
+ANSWER: a.) The body of the web page will not contain any text
+
+
+
+
+6.) While working on a JavaScript project, in your JavaScript application, which function would you use to send messages to users requesting for text input?
+a.) Display() 
+b.) Prompt()
+c.) Alert() 
+d.) Confirm()
+View Answer / Hide Answer
+
+ANSWER: b.) Prompt()
+
+
+
+
+7.) Which property does one use to align text to the right side of a block-level element in Cascading Style Sheets?
+a.) horizontal-align 
+b.) align 
+c.) block-align 
+d.) text-align
+View Answer / Hide Answer
+
+ANSWER: d.) text-align
+
+
+
+
+8.) A ________ object is a reference to one of the classes in a Java package, such as netscape.javascript .
+a.) JavaArray
+b.) JavaClass
+c.) JavaObject
+d.) JavaPackage
+View Answer / Hide Answer
+
+ANSWER: b.) JavaClass
+
+
+
+
+9.) The JavaScript exception is available to the Java code as an instance of __________
+a.) netscape.javascript.JSObject
+b.) netscape.javascript.JSException
+c.) netscape.plugin.JSException
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: b.) netscape.javascript.JSException
+
+
+
+
+10.) Which of the following statements is false about event handlers in JavaScript?
+a.) They can be included with input tags
+b.) They can be associated with end of file processing for a database application
+c.) They can be included with the form tag
+d.) They are generally used to call functions when triggered
+View Answer / Hide Answer
+
+ANSWER: b.) They can be associated with end of file processing for a database application
+
+
+1.) iframe in HTML is used to display a web page within a web page.
+a.) TRUE
+b.) FALSE
+View Answer / Hide Answer
+
+ANSWER: a.) TRUE
+
+
+
+
+2.) Using which tag we insert an JavaScript in HTML page?
+a.) <JavaScript type="text/javascript">
+b.) <script type="text/javascript">
+c.) <JScript type="text/javascript">
+d.) <HTMLScript type="text/javascript">
+View Answer / Hide Answer
+
+ANSWER: b.) <script type="text/javascript">
+
+
+
+
+3.) Which of the following is true about links by default?
+a.) An unvisited link is underlined and blue
+b.) A visited link is underlined and red
+c.) An active link is underlined and purple
+d.) All the above
+View Answer / Hide Answer
+
+ANSWER: a.) An unvisited link is underlined and blue
+
+
+
+
+4.) The href attribute in the link tag specifies the:
+a.) Destination of a link
+b.) Link
+c.) Hypertext
+d.) None of the above
+View Answer / Hide Answer
+
+ANSWER: a.) Destination of a link
+
+
+
+
+5.) HTML Event Attributes onload fires just before the page is finishing loading.
+a.) TRUE
+b.) FALSE
+View Answer / Hide Answer
+
+ANSWER: b.) FALSE
+
+
+
+
+6.) HTML Event Attributes onunload fires
+a.) When the browser window has been closed
+b.) When the browser window is minimized
+c.) When the browser window has changed focus to other window
+d.) After the page is finished loading
+View Answer / Hide Answer
+
+ANSWER: a.) When the browser window has been closed
+
+
+
+
+7.) HTML Form Events ___________, fires the moment that the element loses focus.
+a.) onblur
+b.) onfocus
+c.) onchange
+d.) onlostfocus
+View Answer / Hide Answer
+
+ANSWER: a.) onblur
+
+
+
+
+8.) Twitter limits the number of characters per tweet is ?
+a.) 130
+b.) 160
+c.) 124
+d.) 140
+View Answer / Hide Answer
+
+ANSWER: d.) 140
+
+
+
+
+9.) What is cell padding?
+a.) Used to separate cell walls from their contents
+b.) Used to set space between cells
+c.) Both a and b above
+d.) Used to provide width to a cell
+View Answer / Hide Answer
+
+ANSWER: a.) Used to separate cell walls from their contents
+
+
+
+
+10.) What are meta tags used for?
+a.) To store information usually relevant to browsers and search engines
+b.) To only store information usually relevant to browsers
+c.) To only store information about search engines
+d.) To store information about external links
+View Answer / Hide Answer
+
+ANSWER: a.) To store information usually relevant to browsers and search engines
+

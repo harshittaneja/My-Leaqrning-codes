@@ -1,0 +1,467 @@
+Q1.On which Layer Router Works?
+
+
+
+1.Transport layer
+
+ 
+2.Application layer
+
+ 
+3.Physical layer
+
+ 
+4.Network layer (correct)
+
+Q2.The core if an optical fiber can be glass or plastic?
+
+
+1.True (correct)
+
+2.False
+
+
+Q3.What is Protocol?
+
+Ans.It is a set of rules that determine how data is transmitted between different devices in the same network.
+
+Q4.What is gateway or Router?
+
+Ans A Router is most intelligent network device which is used to connect more than one network .It contains multple broadcaste domain multple collision domain .
+
+Q5.What is the maximum and minimum range of LAN, WAN, and MAN?
+
+Your Answer
+LAN : 100 to 1000 mbps (100,1000) range
+
+min=100 mbps
+
+max=1000 mbps
+
+MAN : 10 to 100 mbps (10,100) range
+
+Ethernet speed
+
+min=10 mbps
+
+max=100 mbps
+
+
+WAN : 20 ,50 to 100 mbps (20,100) range
+
+Ethernet speed
+
+min=20 mbps
+
+max=100 mbps
+
+Q6.When a switch is said to be congested?
+
+Ans.It can be possible that a switch receives packets faster than the shared link can accommodate and stores in its memory.so it ran out from space few packets can be dropped.that the reason is said to be congested 
+
+Q7.Which of the given wireless technologies used in IoT, consumes the least amount of power?
+ 
+
+1.GSM/CDMA
+
+2.None of the above
+
+3.Bluetooth (correct)
+
+4.Zigbee
+
+Q8.What are the different types of memory in routers?
+
+Ans: Different type of memory in routers:
+
+1.ROM
+
+2.NVRAM
+
+3.RAM
+
+4.FLASH RAM
+
+Q9.What are the different types of static routing?
+
+ans:the different types of static routing :
+
+1.Standard static route.
+2.Default static route.
+3.Summary static route.
+4.Floating static route
+
+Q10.By using a hierarchical addressing network addressing scheme which two benefits we get?
+
+1. Auto-negotiation of media rates
+
+2. Reduces routing table entries
+
+3. Dedicated communications between devices
+
+4. Ease of management and troubleshooting
+
+5. Efficient utilization of MAC addresses
+
+1. 2 and 4 (correct)
+
+ 
+2. 1 and 3
+
+ 
+3. 3 and 5
+
+ 
+4.  4 and 5
+
+Q11.If there are five routers and six networks in the intranet using link-state routing, how many routing tables are there?
+
+
+1. 11
+2. 1
+3. 5 (correct)
+4. 6
+
+Q12. Differentiate Between User Mode and PrivilegedMode?
+
+Your Answer
+User Mode:It is for view some of little configuration of router without the ability to make changes.It consists basic reachability tests, such as ping and traceroute .
+
+Usermode:
+
+Eg: router >command
+
+router>en
+
+
+Privileged Mode: for allowing administrators to configure cisco device to make changes, view more show commands and debugs as well .
+
+Privileged mode:
+
+Eg: router#command
+
+router# config terminal
+
+router#exit
+
+Q13.What is Sub netting?
+
+Ans: Subnetting is a technique to divide an IP address( IPv4 orIPv6 ) block into smaller portions, so fewer IP addresses are wasted.
+
+Q14.Which one of the following routing algorithm can be used for network layer design
+
+
+
+1.All of the above mentioned (correct)
+
+ 
+2.Shortest Path ALgorithm
+
+ 
+3.Link-state routing
+
+ 
+4.Distance vector routing
+
+Q15.In Multi-destination routing data is not sent by packets?
+
+1.True (correct)
+2.False
+
+Q16.Which of the following assertions is FALSE about the Internet Protocol (IP) 
+
+
+1.The packet source cannot set the route of outgoing packets; the route is determined only by the routing tables in the routers on the way  (correct)
+
+ 
+2.It is possible for a computer to have multiple IP addresses
+
+ 
+3.IP packets from the same source to the same destination can take different routes in the network
+
+ 
+4.IP ensures that a packet is discarded if it is unable to reach its destination within a given number of hops
+
+
+
+Q17.Several computers linked to a server to share programs and storage space.
+ 	
+A. Library
+B. Network (correct)
+C. Grouping
+D. Integrated system
+
+Q18.A term related sending data to a satellite is?
+ 	
+A. Downlink
+B. Modulate
+C. Demodulate
+D. Uplink (correct)
+
+Q19.The common name for a modulator-demodulator is
+ 	
+A. Modem (correct)
+B. Joiner
+C. Networker
+D. Connector
+
+
+Q20.Which of the following device is used to connect two systems, especially if the systems use different protocols?
+ 	
+A. Repeater
+B. Gateway (correct)
+C. Bridge
+D. Hub
+
+Q21.The Internet is
+ 	
+A. A communication system for some states of India
+B. A communication system for the Indian government
+C. An internal communication system for a business
+D. A large network of networks (correct)
+
+Q22. A distributed network configuration in which all data/information pass through a central computer is
+ 	
+A. Bus network
+B. Star network (correct)
+C. Ring network
+D. Point-to-point network
+
+Q23.Which of the following communications modes support two-way traffic but in only one direction of a time?
+ 	
+A. Simplex
+B. Half-duplex (correct)
+C. Three-quarters duplex
+D. Full duplex
+
+Q24.The slowest transmission speeds are those of
+ 	
+A. Coaxial cable
+B. Twisted-pair wire (correct)
+C. Fiber-optic cable
+D. Microwaves
+
+Q25.A modem is connected to
+ 	
+A. A telephone line (correct)
+B. A keyboard
+C. A printer
+D. A monitor
+
+Q26.A popular way to learn about computers without ever going to a classroom is called
+ 	
+A. E-learning (correct)
+B. Star network
+C. I-learning
+D. Close learning
+
+Q27.The collection of links throughout the Internet creates an interconnected network called the
+ 	
+A. WWW
+B. Web
+C. Wide Area Web
+D. All of the above (correct)
+
+Q28.Networks are monitored by security personnel and supervised by _____ who set(s) up accounts and passwords for authorized network users.
+ 	
+A. IT managers
+B. The government
+C. Password administrators
+D. Network administrators
+
+Q29.P2P is a _____ application architecture.
+ 	
+A. Client/server
+B. Distributed (correct)
+C. Centralized
+D. 1-tier
+
+Q30.Codec refers to
+ 	
+A. Coder-decoder (correct)
+B. Co-declaration
+C. Command declaration
+D. Command decoding
+
+Q31._______ is the most important/powerful computer in a typical network.
+ 	
+A. Desktop
+B. Network server (correct)
+C. Network client
+D. Network switch
+
+Q32.A MODEM is connected in between a telephone line and a
+ 	
+A. Computer (correct)
+B. Communication Adapter
+C. Serial Port
+D. Network
+
+Q33.Computers that control processes accept data in a continuous
+ 	
+A. Data traffic pattern
+B. Data highway
+C. Infinite loop (correct)
+D. Feedback loop
+
+Q34.A device that connects to a network without the use of cables is said to be
+ 	
+A. Distributed
+B. Centralized
+C. Wireless (correct)
+D. Open source
+
+Q35.What is a modem connected to?
+ 	
+A. Phone line (correct)
+B. Processor
+C. Printer
+D. Motherboard
+
+Q36.What device separates a single network into two segments but lets the two segments appear as one to higher protocols?
+ 	
+A. Switch
+B. Router
+C. Bridge (correct)
+D. Gateway
+
+Q37.What is a benefit of networking your computer with other computers?
+ 	
+A. Increase in the computer's speed
+B. Sharing of cables to cut down on expenses and clutter
+C. Sharing of resources to cut down on the amount of equipment needed (correct)
+D. Increase in the speed of the network
+
+Q38.Which of the following is required to communicate between two computers?
+ 	
+A. Communications software
+B. Protocol
+C. Communications hardware
+D. All of the above (correct)
+
+Q39.Which of the following is not a disadvantage of wireless LAN?
+ 	
+A. Slower data transmission
+B. Higher error rate
+C. Interference of transmissions from different computers
+D. All of the above (correct)
+
+Q40.Bluetooth is an example of
+ 	
+A. Personal area network (correct)
+B. Local area network
+C. Virtual private network
+D. Wide area network
+
+Q41.The connection between your computer at home and your local ISP is called _____
+ 	
+A. The last mile
+B. The home stretch
+C. The home page (correct)
+D. The backbone
+
+Q42.A ____ is a set of rules.
+ 	
+A. Resource locator
+B. Protocol (correct)
+C. Domain
+D. URL
+
+Q43.A ____ typically connects personal computers within a very limited geographical area, usually within a single building.
+ 	
+A. LAN (correct)
+B. WAN
+C. MAN
+D. TAN
+
+Q44. Officer LANs that are spread geographically apart on a large scale can be connected using a corporate
+ 	
+A. LAN
+B. WAN (correct)
+C. MAN
+D. CAN
+
+
+Q45.Which device is used to access your computer by other computer or for talk over phone?
+ 	
+A. RAM
+B. Modem (correct)
+C. CD ROM Drive
+D. Hard disk
+
+Q46.A device which can be connected to a network without using cable is called
+ 	
+A. Centralized device
+B. Distributed device
+C. Wireless device (corrects)
+D. Open-source device
+
+Q47.Frames from one LAN can be transmitted to another LAN via the device
+ 	
+A. Router
+B. Bridge (correct)
+C. Repeater
+D. Modem
+
+Q48.Which of the following types of channels moves data relatively slowly?
+ 	
+A. Wideband channel
+B. Voiceband channel
+C. Broadband channel
+D. Narrowband channel (correct)
+
+Q49.he vast network of computers that connects millions of people all over the world is called
+ 	
+A. LAN
+B. Web
+C. Hybertext
+D. Internet (correct)
+
+Q50.Which of the following terms is just the collection of networks that can be joined together?
+ 	
+A. Virtual private network
+B. Intranet (correct)
+C. Extranet
+D. LAN
+
+Q51.To connect networks of similar protocols ______ are used.
+ 	
+A. Routers
+B. Bridges (correct)
+C. Gateways
+D. Dial-up routers
+
+Q52.Telnet is a ______ based computer protocol.
+ 	
+A. Sound
+B. Text (correct)
+C. Image
+D. Animation
+
+Q53.Computers connected to a LAN (local area network) can
+ 	
+A. Run faster
+B. Go on line
+C. E–mail
+D. Share information and/or share peripheral equipment (correct)
+
+Q54.Computer and communication technology, such as communication links to the Internet, that provide help and understanding to the end user is known as
+ 	
+A. Presentation file
+B. Information technology
+C. Worksheet file
+D. FTP (correct)
+
+Q55._______ is a technique that is used to send more than one call over a single line.
+ 	
+A. Digital transmission
+B. Infrared transmission
+C. Digitizing
+D. Multiplexing (correct)
+
+Q56.A collection of computers and devices connected together via communication devices and transmission media is called a
+ 	
+A. Workgroup
+B. Server
+C. Mainframe
+D. Network correct)

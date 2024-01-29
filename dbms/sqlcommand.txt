@@ -1,0 +1,127 @@
+1 create table <tablename>(clomun name dtatype(size));
+eg create table cc2(id varchar(10),age number(2),name char(10),date int);
+2 desc tablename<cc2>
+or describe name
+
+3.select * from tablename .
+select *from cc2.
+
+4. insert into tablename <cc2> where id='18bcs4103';
+eg.insert into CC2 values('18BCS4103',23,'Harshit',23/09/2000)
+INSERT INTO Harshit (name,id) VALUES ('Harshit taneja','18bc4103');
+INSERT INTO Harshit VALUES ('Harshit taneja','18bc4103');
+
+6.select age,name from tablename<cc2> where id='18bcs4103';
+5 select * from tablename<cc2> order by id DESC.
+7.select *  from tablename<cc2> order by id ASC.
+   7.1 select name from tablename<cc2
+8.drop table <tablename>.
+9.truncate table <tablename>.
+10.alter table tablename <t1> add columname <id> varchar(10)
+11.alter table tablename <t1> drop columname <id> varchar(10)
+12.alter table tablename <t1> drop column  columnname <id>
+13.delete from tablename <t1> where  roll='1'
+14.update tabelname <t1> set column condition - <name='utkarsh'> where column condition - <name='harshit'>
+eg . update t1 set name='yash' where roll='12'.
+//blank record update eg .update cc2 set age='18' where id='18bcs4103';
+15. insert into <t2>tablename 
+ select * from tablename<t1>.
+
+16.insert into tablename <t2> columnname (name)  
+select columname (name) from tablename <t1>; 
+
+17.insert into tablename  <t2>   
+select * from tablename <t1> <condition> where name='hashit'; 
+
+this command will find data from table t1 and match the name if h comes in the begning of any column
+
+18. select * from table-name<t1> where <condition> <cloumn>name like'H%';  H% means word comes only after H not before H  
+
+select * from Harshit where name like'%t%'  this %t% means alphabet present before t and after t also 
+select count(*) from Harshit where id='1'
+
+19.select * from t1 where name like'______t%';
+
+20.select sum(column-name<marks>) as total from table-name<t1>
+
+21.create table <table-name> as select * from <exixting table name> 
+
+Joins
+* select * from user_tables
+//this command will tell who many  tables prebuilt are there in table
+to understand join first see the table dept and emp from oracle by above command 
+1 Inner join
+1.1
+eque join 
+select * from t1<fisrt table> INNNER JOIN t2 <second table> where condition like <t1.name=t2.name>
+ eg
+select * from dept INNER JOIN  emp on    dept.deptno =emp.deptno; 
+or 
+select * from dept  JOIN  emp on    dept.deptno = emp.deptno;   
+both are same it only check join keyword 
+
+
+1.2
+
+non equi join
+eg 
+select * from dept  JOIN  emp on    dept.deptno > emp.deptno;
+select * from dept  INNER JOIN  emp on    dept.deptno > emp.deptno;
+
+1.3.
+self join 
+
+join on itself table 
+eg 
+1. select * from emp self JOIN  emp on    emp.deptno = emp.deptno; 
+2.select * from emp  JOIN  emp on    emp.deptno = emp.deptno;  
+both are same 
+or more you can create object also
+3.
+select * from emp k JOIN  emp l on    k.deptno = l.deptno;  
+Natural join 
+eg
+select * from dept NATURAL JOIN  emp  ;   
+ more example
+1 . select e.dname||'is main'||j.ename  from dept e NATURAL JOIN  emp j ;   
+
+
+
+Table level constraints like primary etc
+eg .
+create table yash1(name char(20),id varchar(20)
+, CONSTRAINT j2 PRIMARY KEY(id) );
+
+
+foriegn key 
+
+*
+create table DEPARTMENT(Dno number(10) primary key , Dname varchar2(20), Dlocation varchar2(20));
+create table EMPLOYEE(Eno number(10)primary key, Ename varchar2(20), Eaddress varchar2(20), Dno number(5) , Foreign Key (dno) references DEPARTMENT(dno));
+
+
+*note the objective of foriegn key is that if you add a record in table department and not add same record in employee class it will give unless you don't add first in departmnt table
+
+
+
+*mysql command line*
+first 
+type password of database
+create database <database name>;
+1
+*** note  ->    show databases;
+
+#for counting the rows
+create table Harshit(name char(10),id varchar(20))
+select count(*) from table(harshit)
+eg select count(*) from Harshit
+ slect count(*) from harshit where id='1'
+
+
+#for ordering table by a specific column
+select * from Harshit order by id;
+
+
+
+
+ 

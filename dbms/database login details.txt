@@ -1,0 +1,3 @@
+database name -Harshit
+application name-18bcs4103
+password-Harshit@123

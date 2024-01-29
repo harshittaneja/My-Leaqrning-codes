@@ -1,0 +1,99 @@
+import java.util.*;
+public class project1 {
+
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+
+				int n=0,k=0;
+				String semplpoyee_id;
+				Scanner s =new Scanner(System.in);
+				
+		System.out.print("enter the number of employee ");
+			n=s.nextInt();
+			String emplpoyee_id[]=new  String[n];
+			String emplpoyee_name[]=new  String[n];
+			double basic[]=new double[n];
+			double hra[] =new double[n];
+			double  it[]=new double[n];
+			String	descodes[]=new String[n];
+			String designation[]=new String[n];
+			String department[]=new String[n];
+			double salary[]=new double[n];
+			String date_of_joining[]=new String[n];
+			double da[]=new double[n];
+			
+			for(int i=0;i<n;i++) {
+			System.out.println("enter the employee name  of "+(i+1)+" employee");
+			emplpoyee_name[i]=s.next();
+			System.out.println("enter the employee id  of "+(i+1)+" employee");
+			  emplpoyee_id[i]=s.next();
+			 System.out.println("enter the employee date_of_joining  "+(i+1)+" employee");
+			 date_of_joining[i]=s.next();
+			 System.out.println("enter the employee  "+(i+1)+" basic");
+			 basic[i]=s.nextDouble();
+			 System.out.println("enter the employee  "+(i+1)+" hra");
+			 hra[i]=s.nextDouble();
+			 System.out.println("enter the employee  "+(i+1)+" it");
+			 it[i]=s.nextDouble();
+			 System.out.println("enter the ds code employee  "+(i+1)+ " emp-loyee");
+			 descodes[i]=s.next();
+			 System.out.println("enter the department  "+(i+1)+ " emp-loyee");
+            department[i]=s.next();
+			}
+			for(int i=0;i<n;i++) {
+				if(descodes[i].equals("e")) {
+				da[i]=20000;
+				designation[i]="enginner";
+				}
+				else if(descodes[i].equals("c")) {
+					da[i]=32000;
+					designation[i]="consultant";
+					}
+				else if(descodes[i].equals("k")) {
+					da[i]=12000;
+					designation[i]="clerk";
+						
+					}
+				else if(descodes[i].equals("r")) {
+					da[i]=15000;
+					designation[i]="recepitionist";
+						
+					}
+				else  if(descodes[i].equals("m")) {
+					da[i]=40000;
+					designation[i]="manager";
+					}
+				else {
+					da[i]=0;
+				}
+			}
+			
+			for(int i=0;i<n;i++) {
+				salary[i]=basic[i]+hra[i]+da[i]-it[i];
+				}
+			 System.out.println("enter the  employee id to be searched  ");
+			 semplpoyee_id=s.next();
+			for(int i=0;i<n;i++) {
+				if( semplpoyee_id.equals( emplpoyee_id[k++])) {
+			  		System.out.println("Emp_id\t EmpName department\tdesignation\tsalary");
+			  		System.out.println(emplpoyee_id[k-1]+"\t  "+emplpoyee_name[k-1]+"\t  "+department[i] +"\t\t"+designation[k-1]+"\t"+salary[k-1]);
+				}
+			
+				
+			
+				
+				
+				
+			}
+			
+			
+			
+			
+			
+		}
+		}
+
+	
+	
+	
+

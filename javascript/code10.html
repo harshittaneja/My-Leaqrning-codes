@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+//object creation in javascript (like dictionary in python)
+//first way 	
+ob={ id:"102",name:"utkarsh",fee:100}
+//print value from first way
+document.write("<br>"+ob.name+" "+ob.id+" "+ob.fee);
+//second way of creating object(dictionary)
+var ob1=new Object();
+//assigning values 
+ob1.name="harshit";
+ob1.id="18BCS4103";
+ob1.fee=30000;
+//priinting values from it
+document.write("<br>"+ob1.name+" "+ob1.id+" "+ob1.fee);
+//third way
+function fun(a,b,c){
+//putting values in global variables with the help of local ones 
+	this.name=a;
+	this.id=b;
+	this.fee=c;
+}
+//return= new function(arguements)
+k=new fun(103,"harsh",300)
+
+document.write("<br>"+k.name+" "+k.id+" "+k.fee);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+#include<stdio.h>
+#include<conio.h>
+char str[100], pat[50], rep[50], ans[100];
+ int a, b, c, d, k, flag=0;
+void stringmatch()
+{
+a = b = c = d = 0;
+ while(str[c] != '\0')
+{
+if(str[b] ==pat[a])	
+{
+a++;
+ b++;
+if(pat[a] =='\0')	
+{
+flag = 1;
+//	copy replace string in ansstring.
+for(k = 0; rep[k] != '\0'; k++, d++){
+
+ans[d] = rep[k];
+a = 0;
+c =b;
+}
+}
+}
+else	
+{
+ans[d] = str[c]; 
+d++;
+c++;
+b = c;
+ a = 0;
+}
+ ans[d] = '\0';
+}
+
+} 
+
+ main()
+{
+
+printf("\nEnter a main string \n"); gets(str);
+printf("\nEnter a pattern string \n"); //fflush();
+gets(pat);
+printf("\nEnter a replace string \n"); //fflush();
+gets(rep); 
+stringmatch();
+ if(flag == 1){
+ 
+ printf("\nThe resultant string is\n %s" , ans);
+}
+else{
+
+printf("\nPattern string NOT found\n");
+}
+
+}

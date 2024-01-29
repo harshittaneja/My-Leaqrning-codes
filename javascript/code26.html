@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		function fun() {
+			// body...
+			// method to encode url and decode it 
+			var url="my test.asp?name=>stale&car<=saab";
+			var enc=encode(url);
+			var dec=decode(enc);
+			var res="ecoded url :"+ enc +"decode url is :"+dec
+			document.getElementById('valu').innerHTML=res;
+
+		
+		}
+
+	</script>
+<p>click on the button to decode te url after encoding </p>
+	<p id="valu"> pe</p>
+	<button onclick="fun()">click here </button>
+</body>
+</html>

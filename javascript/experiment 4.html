@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+
+	body{
+		background-color: white;
+		font-size: 34px;
+		text-align: center;
+		
+	}
+	
+	.Add{
+		color: white;
+		background-color: MediumSeaGreen;
+		width: 250px;
+		border-style: none;
+		height: 50px;
+		border-radius: 60px;
+
+	}
+	.Add1{
+		color: white;
+		background-color: Tomato;
+		width: 250px;
+		border-radius: 60px;
+		border-style: none;
+		height: 50px;
+		
+	}
+	.Add2{
+		color: white;
+		background-color: SlateBlue;
+		width: 250px;
+		border-radius: 60px;
+		border-style: none;
+		height: 50px;
+	}
+	.Add3{
+		color: white;
+		background-color: orange;
+		width: 250px;
+		border-radius: 60px;
+		border-style: none;
+		height: 50px;
+	}
+	.Add4{
+		color: white;
+		background-color: grey;
+		width: 250px;
+		border-radius: 60px;
+		border-style: none;
+		height: 50px;
+	}
+	.Add5{
+		color: white;
+		background-color: DodgerBlue;
+		width: 250px;
+		border-radius: 60px;
+		border-style: none;
+		height: 50px;
+	}
+.Add6{
+           color: white;
+		background-color: 	rgb(128, 255, 0);
+		width: 250px;
+		border-radius: 60px;
+		border-style: none;
+		height: 50px;
+}
+.Add:hover{
+  color: black;
+background-color:powderblue ;	
+}
+.Add1:hover{
+  color: black;
+background-color:powderblue ;	
+}
+.Add2:hover{
+  color: black;
+background-color:powderblue ;	
+}
+.Add3:hover{
+  color: black;
+background-color:powderblue ;	
+}
+.Add4:hover{
+  color: black;
+background-color:powderblue ;	
+}
+.Add5:hover{
+  color: black;
+background-color:powderblue ;	
+}
+.Add6:hover{
+  color: black;
+background-color:powderblue ;	
+}
+	
+</style>
+<body>
+
+	<p id="d"></p>
+	<script type="text/javascript">
+		
+		function check(argument) {
+			// body...
+			window.print();
+		}
+		function Alert(){
+			alert("you pressed the alert button");
+		}
+		function warning(){
+		 var v;
+  if (confirm("Press a button!")) {
+    v = "ohk ";
+  } else {
+    v = "cancel ";
+  }
+  document.getElementById("d").innerHTML = v;
+}
+function inner(){
+
+document.getElementById("d").innerHTML = "Harshit"
+}
+function OPEN(){
+
+open("http://www.google.com");
+
+}
+function prt(){
+	var val=prompt("enter your name");
+	alert(val);
+}
+
+		
+
+
+
+	</script>
+	<br>
+	<div class="main">
+<center>
+	<br>
+<button class="Add"  onclick="check()">print window</button>
+<br>
+<br>
+<button class="Add1"  onclick="Alert()">alert mesg</button>
+<br>
+<br>
+<button class="Add2"  onclick="warning()">warning !!</button>
+<br>
+<br>
+<button class="Add3"  onclick="inner()">InnerHTML !!</button>
+<br>
+<br>
+<button class="Add4"  onclick="OPEN()">open</button>
+<br>
+<br>
+<button class="Add5"  onclick="prt()">prompt</button>
+
+
+
+</center>
+</div>
+</body>
+</html>

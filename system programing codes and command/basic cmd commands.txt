@@ -1,0 +1,204 @@
+Types of commands in msdos (or cmd)
+
+1.Internal commands 
+2.external commands
+
+1.internal commands are basic commands of create directory etc.
+
+1.1 making new directory (MD)
+
+synatx : MD directory name
+
+eg MD harshit 
+
+1.2 Change  directory (CD)
+
+syntax :cd path 
+
+eg: cd desktop
+or cd  E:\bhajan 
+or cd.. (it will go to previous  dirctory )
+
+1.3 dir (tells all the directory or folder present in location)
+
+1.4 cd\ (it will move you to parent directory )
+
+1.5 remove directory (RD):
+
+syntax :  RD directory name 
+eg : RD harshit  
+
+1.6 create a file as well as type from console:
+
+synatx : copy con filename
+
+eg: copy con harshit.txt
+
+1.7 delete command:
+
+syntax : del filename 
+
+eg: del harshit.txt
+
+or
+eg : del *.exe 
+
+or
+del *.txt (this will delete all those txt files present in the directory ) 
+
+
+1.8 clear screen (cls)
+
+
+1.9 Date command 
+
+synatx : Date[mm-dd-yy]
+
+eg:date \t (print the current date)
+or simplay type date 
+eg:
+
+C:\Users\Dell>date
+The current date is: Sun 07/26/2020
+Enter the new date: (mm-dd-yy) 02/12/2000
+A required privilege is not held by the client.
+
+C:\Users\Dell>
+
+here it is showing becoz we are not adminstrator so open cmd first in adminstrator cmd then do it 
+
+
+C:\WINDOWS\system32>date
+The current date is: Sun 07/26/2020
+Enter the new date: (mm-dd-yy) 01/12/2000
+
+
+2.0 set Time command 
+eg time 
+
+C:\Users\Dell>Time
+The current time is: 17:45:40.32
+Enter the new time:
+
+synatx : Time 13:36 Time 1:32 pm
+
+admin cmd 
+
+C:\WINDOWS\system32>time
+The current time is: 17:47:12.87
+Enter the new time: 3:34
+
+C:\WINDOWS\system32>3:34 pm
+The system cannot find the drive specified.
+
+C:\WINDOWS\system32>time 3:34 pm
+
+C:\WINDOWS\system32>time
+The current time is: 15:34:03.39
+Enter the new time: 6:45 pm
+
+C:\WINDOWS\system32>
+
+2.1 format command 
+
+syntax : format drive name
+
+eg format c:
+
+
+2.2 quick format
+
+syntax : format c:/q
+
+2.3 disk compare command 
+
+syntax : discomp  drive1 :drive 2
+
+eg  : discomp  D :C
+
+
+2.4 disk check command 
+
+synatx:  chkdsk C:
+ chkdsk is used to find out how much data is stored inside disk 
+
+C:\WINDOWS\system32>chkdsk
+The type of the file system is NTFS.
+
+WARNING!  /F parameter not specified.
+Running CHKDSK in read-only mode.
+
+Stage 1: Examining basic file system structure ...
+Progress: 145117 of 790528 done; Stage: 18%; Total:  6%; ETA:   0:02:44 ...
+
+
+2.5
+change path from drive from C:> to E:>
+
+C:\Users\Dell>E:
+
+E:\>
+
+
+2.5 checking  a specific disk (admin cmd ):
+
+eg: 
+C:\WINDOWS\system32>chkdsk E:
+The type of the file system is NTFS.
+
+WARNING!  /F parameter not specified.
+Running CHKDSK in read-only mode.
+
+Stage 1: Examining basic file system structure ...
+  8960 file records processed.
+File verification completed.
+ Phase duration (File record verification): 539.32 milliseconds.
+  0 large file records processed.
+ Phase duration (Orphan file record recovery): 3.85 milliseconds.
+  0 bad file records processed.
+ Phase duration (Bad file record checking): 3.46 milliseconds.
+
+Stage 2: Examining file name linkage ...
+  466 reparse records processed.
+  9844 index entries processed.
+Index verification completed.
+ Phase duration (Index verification): 1.48 seconds.
+  0 unindexed files scanned.
+ Phase duration (Orphan reconnection): 6.74 milliseconds.
+  0 unindexed files recovered to lost and found.
+ Phase duration (Orphan recovery to lost and found): 3.60 milliseconds.
+  466 reparse records processed.
+ Phase duration (Reparse point and Object ID verification): 6.76 milliseconds.
+
+Stage 3: Examining security descriptors ...
+Security descriptor verification completed.
+ Phase duration (Security descriptor verification): 36.27 milliseconds.
+  442 data files processed.
+ Phase duration (Data attribute verification): 6.58 milliseconds.
+
+Windows has scanned the file system and found no problems.
+No further action is required.
+
+ 153599999 KB total disk space.
+   7910560 KB in 4321 files.
+      1320 KB in 444 indexes.
+         0 KB in bad sectors.
+     79603 KB in use by the system.
+     65536 KB occupied by the log file.
+ 145608516 KB available on disk.
+
+      4096 bytes in each allocation unit.
+  38399999 total allocation units on disk.
+  36402129 allocation units available on disk.
+Total duration: 2.09 seconds (2096 ms).
+
+C:\WINDOWS\system32>
+
+
+
+
+
+
+
+
+ 

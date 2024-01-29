@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html> 
+  
+<head> 
+    <title> 
+        Zoom-In and Zoom-Out 
+        image using JavaScript  
+    </title> 
+    <style type="text/css">
+        .zoomin{
+    
+     background-color: SlateBlue;
+     width: 100px;
+     height: 30px;
+     border-radius: 60px;
+     text-decoration: none;
+     border: none;
+     color: white;
+
+        }
+.zoomin:hover{
+
+    background-color: orange;
+
+}
+.zoomin2{
+    
+     background-color:  MediumSeaGreen;
+     width: 100px;
+     height: 30px;
+     border-radius: 60px;
+     text-decoration: none;
+     border: none;
+     color: white;
+
+        }
+.zoomin2:hover{
+
+    background-color: orange;
+}
+
+
+
+
+
+
+
+
+    </style>
+      
+   
+</head> 
+  
+<body style="text-align:center;"> 
+      
+    <h1 style = "color:red;" >  
+        Zoom In and Out  
+    </h1>  
+      
+    <h3> 
+        JavaScript | Increase and 
+        Decrease image size 
+    </h3> 
+    <hr> 
+      
+    <div class="box"> 
+          
+        <img src= "wp2237408-ed-edd-n-eddy-wallpapers.jpg"
+            id="Yash" alt="Yash" width="800px" height="400px"> 
+    </div> 
+    <hr> 
+      
+    <button type="button" onclick="zoomin()" class="zoomin"> 
+        Zoom-In 
+    </button> 
+      
+    <button type="button" onclick="zoomout()"class="zoomin2">  
+        Zoom-Out 
+    </button> 
+      
+    <script type="text/javascript"> 
+        function zoomin() { 
+            var GFG = document.getElementById("Yash"); 
+            var currWidth = GFG.clientWidth; 
+            var currHeight=GFG.clientHeight;
+            GFG.style.width = (currWidth + 50) + "px";
+            GFG.style.height = (currHeight + 50) + "px";  
+
+        } 
+          
+        function zoomout() { 
+            var GFG = document.getElementById("Yash"); 
+            var currWidth = GFG.clientWidth;
+            var currHeight=GFG.clientHeight; 
+            GFG.style.width = (currWidth - 50) + "px"; 
+            GFG.style.height = (currHeight - 50) + "px";  
+        } 
+    </script> 
+</body> 
+  
+</html>

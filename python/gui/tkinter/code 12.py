@@ -1,0 +1,26 @@
+from tkinter import *
+from tkinter import messagebox
+top = Tk()
+top.geometry("520x400")
+def helloCallBack():
+    #
+    msg = messagebox.showinfo( "Hello Python", "Hello World")
+# button (panel,texton button , activebackground on pressing ,background on pressing ,foreground,background ,borderthickness,command function )
+B = Button(top, text="Hello", activebackground="red", activeforeground="yellow",bg="green",fg="blue",bd=2,command = helloCallBack)
+# Button(top (panel), text on button "FLAT", relief=FLAT ,underline(on text of button at index )=0)
+B1 = Button(top, text="FLAT", relief=FLAT ,underline=0)
+# Button(top (panel), text on button "FLAT", relief( type of button is raised from surrounding )=RAISED ,underline(on text of button at index )=0)
+B2 = Button(top, text ="RAISED", relief=RAISED,underline=2 )
+# Button(top (panel), text on button "SUNKEN", relief( type of button is raised from surrounding )=SUNKEN ,underline(on text of button at index )=0)
+B3 = Button(top, text ="SUNKEN", relief=SUNKEN,underline=2 )
+# Button(top (panel), text on button "GROVVE", relief( type of button is raised from surrounding )=groove ,underline(on text of button at index )=0)
+B4 = Button(top, text ="GROOVE", relief=GROOVE,underline=3 )
+# Button(top (panel), text on button "RIDGE", relief( type of button is raised from surrounding )=RIDGE ,underline(on text of button at index )=0)
+B5 = Button(top, text ="RIDGE", relief=RIDGE )
+B1.pack()
+B2.pack()
+B3.pack()
+B4.pack()
+B5.pack()
+B.pack()
+top.mainloop()

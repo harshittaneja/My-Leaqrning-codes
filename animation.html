@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<style>
+#myContainer {
+  margin-left: 500px;
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-color: SlateBlue;
+}
+#myAnimation {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background-color:  Orange;
+  border-radius: 50px;
+}
+</style>
+<body>
+<center><h2>Animation Task </h2></center>
+<center>
+<button onclick="myMove()">Click Me</button>
+<button onclick="reverse()">reverse</button>  
+</center>
+
+<div id ="myContainer">
+<div id ="myAnimation"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  var counter=0;
+  function frame() {
+    if (pos == 350) {
+     
+    counter=counter + 1;
+     
+     
+     if(counter==1){
+      pos=0;
+
+     }
+
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px';
+       
+    }
+  }
+}
+
+function reverse(argument) {
+  var elem = document.getElementById("myAnimation");   
+  // body...
+var pos = 0;
+elem.style.top = pos + 'px'; 
+elem.style.left = pos + 'px';
+}
+</script>
+
+</body>
+</html>

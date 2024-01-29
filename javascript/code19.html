@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	function show() {
+
+			// getting value of radio button from attribute name as gender 
+		var allgender=document.getElementsByName('gender');
+		//document.form.name.value
+		var g=document.myform.gender.value;
+		alert("total :"+allgender.length+" "+" selected gender: " +g);
+		document.write("total :"+ allgender.length);
+		}	
+
+	</script>
+	<form name="myform">
+male:<input type="radio" name="gender" value="male" >
+female:<input type="radio" name="gender" value="female" >
+other:<input type="radio" name="gender" value="other" >
+         <input type="button" value="total" onclick="show()">
+	</form>
+
+</body>
+</html>

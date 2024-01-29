@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	
+	<script type="text/javascript">
+		function abc(argument) {
+			var a=eval("1 + 2");
+			var b=eval("3 + 2");
+			var c=eval("4 + 5");
+			var result=a + b + c + b;
+			// body...
+			document.getElementById('hello').innerHTML=result;
+		}
+	</script>
+	<p id="hello">hi</p>
+	<button onclick="abc()">click for eval</button>
+
+</body>
+</html>

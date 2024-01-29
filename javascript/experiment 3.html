@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+background-color:Orange;
+
+	}
+	
+.center{
+	border-radius: 20px;
+	margin-top: 20px;
+background-color: white;
+width: 620px;
+height: 550px;
+}
+#number1{
+	border-color: black;
+
+	width: 240px;
+	height: 30px;
+}
+#number2{
+	border-color: black;
+
+	width: 240px;
+	
+height: 30px;
+}
+#numbercheck
+{border-color: black;
+
+	width: 240px;
+	
+height: 30px;
+}
+
+.Add
+{
+	color: white;
+	background-color:DodgerBlue;
+	border-radius: 60px;
+	border-style: none;
+	width: 70px;
+	height: 25px;
+}
+.Add:hover{
+	background-color: orange;
+	color: 
+}
+
+
+
+</style>
+<script type="text/javascript">
+	var num1;
+	var num2;
+	var sum;
+	var sub;
+	var mul,div,rem;
+function add(argument) {
+		// body...
+	num1=Number(document.getElementById('number1').value);
+	num2=Number(document.getElementById('number2').value);
+     sum =num2 + num1;
+ 
+ alert("sum :"+num1+" + "+num2+" ="+sum) ;
+	}
+	function sub(argument) {
+		// body...
+	num1=Number(document.getElementById('number1').value);
+	num2=Number(document.getElementById('number2').value);
+     sub =num2 - num1;
+ alert("subract :"+num2+" - "+num1+" ="+sub) ;
+	}	
+	function mul(argument) {
+		// body...
+	num1=Number(document.getElementById('number1').value);
+	num2=Number(document.getElementById('number2').value);
+     mul =num2 * num1;
+ 
+ alert("mutiply :"+num2+" * "+num1+" ="+mul) ;
+
+
+	}
+	function Div(){
+		num1=Number(document.getElementById('number1').value);
+	num2=Number(document.getElementById('number2').value);
+     div =num2 / num1;
+  alert("Divide :"+num1+" / "+num2+" ="+div) ;
+	}
+	function mod(){
+	num1=Number(document.getElementById('number1').value);
+	num2=Number(document.getElementById('number2').value);
+	rem =num2 %num1;
+	 alert("remider :"+num1+" % "+num2+" ="+rem) ;
+	}		
+
+      function check(){
+         var number;
+         number=document.getElementById('numbercheck').value;
+          if(number%2==0){
+          	document.write( number ," is even");
+          }
+          else{
+          	document.write( number ," is odd");
+          }
+
+           } 
+
+</script>
+<body>
+<center><h3>Javascript</h3></center>
+	<center>
+		<div class="center">
+            <br>
+		<h4>Arithematic operator and variables in javascript examples and implementation</h4>
+	<input type="number" name="" placeholder="Enter first number" id="number1">
+	<br>
+	<br>
+	<input type="number" name="" placeholder="Enter second number" id="number2">
+	<br>
+	<br>
+	<button class="Add" onclick="add()">ADD(+)</button>
+	<br>
+	<br>
+	<button class="Add"  onclick="sub()">SUB(-)</button>
+	<br>
+	<br>
+	<button class="Add"  onclick="mul()">MUL(*)</button>
+    <br>
+	<br>
+	<button class="Add"  onclick="Div()">DIV(/)</button>
+ <br>
+	<br>
+	<button class="Add"  onclick="mod()">rem(%)</button>
+    <br>
+	<br>
+	<h4>conditonal statement examples and implementation</h4>
+	<input type="number" name="" placeholder="Enter number to check it even or odd " id="numbercheck">
+    <br>
+	<br>
+    <button class="Add"  onclick="check()">check</button>
+</div>
+</center>
+
+
+</body>
+</html>

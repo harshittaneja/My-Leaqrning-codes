@@ -1,0 +1,12 @@
+1.docker build -t harshittaneja090/myapp:latest .
+
+2.docker push harshittaneja090/myapp
+
+3.docker images
+
+4.docker pull harshittaneja090/myapp
+
+5.docker run -d -p 9000:3000 harshittaneja090/myapp
+
+6.then go browser localhost:9000
+

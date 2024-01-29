@@ -1,0 +1,5 @@
+we can also install node module globally inside the and use them from terminal 
+open adminstrative power shell
+
+going to install nodemon
+command to install npm i -g nodemon

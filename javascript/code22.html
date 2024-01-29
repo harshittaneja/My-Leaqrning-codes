@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		var k;
+		//making task  to check strength of password
+		function pass() {
+			if (document.myform.harshit.value.length >5) {
+               k="good";
+			}
+			else{
+				k="poor"
+			}
+			document.getElementById('mylocation').innerText=k;
+		}
+
+	</script>
+<form name="myform">
+	<input type="password" name="harshit" value="" onkeyup="pass()">
+	strength:<span id="mylocation">no strength</span>
+
+</form>
+</body>
+</html>

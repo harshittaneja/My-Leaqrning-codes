@@ -1,0 +1,9 @@
+docker pull ketangupta34/myapp
+
+docker run -d -p 9000:3000 ketangupta34/myapp
+
+docker run -d -p 9000:3000 ketangupta34/myapp
+
+docker ps
+
+docker exec da8fd97db862 bash(where after exec is CONTAINER ID)

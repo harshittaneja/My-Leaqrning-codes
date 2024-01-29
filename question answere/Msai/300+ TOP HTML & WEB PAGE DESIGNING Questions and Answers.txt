@@ -1,0 +1,1169 @@
+1. A webpage displays a picture. What tag was used to display that picture?
+a. picture
+b. image
+ Ans c. img
+d. src
+
+2. <b> tag makes the enclosed text bold. What is other tag to make text bold?
+ Ans a. <strong>
+b. <dar>
+c. <black>
+d. <emp>
+
+3. Tags and test that are not directly displayed on the page are written in _____ section.
+a. <html>
+ Ans b. <head>
+c. <title>
+d. <body>
+
+4. Which tag inserts a line horizontally on your web page?
+ Ans a. <hr>
+b. <line>
+c. <line direction=”horizontal”>
+d. <tr>
+
+5. What should be the first tag in any HTML document?
+a. <head>
+b. <title>
+ Ans c. <html>
+d. <document>
+
+6. Which tag allows you to add a row in a table?
+a. <td> and </td>
+b. <cr> and </cr>
+c. <th> and </th>
+ Ans d. <tr> and </tr>
+
+7. How can you make a bulleted list?
+a. <list>
+b. <nl>
+ Ans c. <ul>
+d. <ol>
+
+8. How can you make a numbered list?
+a. <dl>
+ Ans b. <ol>
+c. <list>
+d. <ul>
+
+9. How can you make an e-mail link?
+a. <a href=”xxx@yyy”>
+b. <mail href=”xxx@yyy”>
+c. <mail>xxx@yyy</mail>
+ Ans d. <a href=”mailto:xxx@yyy”>
+
+10. What is the correct HTML for making a hyperlink?
+ Ans a. <a href=”http:// ABC.com”>ICT Trends Quiz</a>
+b. <a name=”http:// ABC.com”>ICT Trends Quiz</a>
+c. <http:// ABC.com</a>
+d. url=”http:// ABC.com”>ICT Trends Quiz
+
+11. Choose the correct HTML tag to make a text italic
+a. <ii>
+b. <italics>
+c. <italic>
+ Ans d. <i>
+
+12. Choose the correct HTML tag to make a text bold?
+ Ans a. <b>
+b. <bold>
+c. <bb>
+d. <bld>
+
+13. What is the correct HTML for adding a background color?
+a. <body color=”yellow”>
+ Ans b. <body bgcolor=”yellow”>
+c. <background>yellow</background>
+d. <body background=”yellow”>
+
+14. Choose the correct HTML tag for the smallest size heading?
+a. <heading>
+ Ans b. <h6>
+c. <h1>
+d. <head>
+
+15. What is the correct HTML tag for inserting a line break?
+ Ans a. <br>
+b. <lb>
+c. <break>
+d. <newline>
+
+16. What does vlink attribute mean?
+ Ans a. visited link
+b. virtual link
+c. very good link
+d. active link
+
+17. Which attribute is used to name an element uniquely?
+a. class
+ Ans b. id
+c. dot
+d. all of above
+
+18. Which tag creates a check box for a form in HTML?
+a. <checkbox>
+ Ans b. <input type=”checkbox”>
+c. <input=checkbox>
+d. <input checkbox>
+
+19. To create a combo box (drop down box) which tag will you use?
+ Ans a. <select>
+b. <list>
+c. <input type=”dropdown”>
+d. all of above
+
+20. Which of the following is not a pair tag?
+a. <p>
+b. < u >
+c. <i>
+ Ans d. <img>
+
+21. To create HTML document you require a
+a. web page editing software
+b. High powered computer
+ Ans c. Just a notepad can be used
+d. None of above
+
+22. The special formatting codes in HTML document used to present content are
+ Ans a. tags
+b. attributes
+c. values
+d. None of above
+
+23. HTML documents are saved in
+a. Special binary format
+b. Machine language codes
+ Ans c. ASCII text
+d. None of above
+
+24. Some tags enclose the text. Those tags are known as
+a. Couple tags
+b. Single tags
+c. Double tags
+ Ans d. Pair tags
+
+25. The _____ character tells browsers to stop tagging the text
+a. ?
+ Ans b. /
+c. >
+d. %
+
+26. In HTML document the tags
+a. Should be written in upper case
+b. should be written in lower case
+c. should be written in proper case
+ Ans d. can be written in both uppercase or lowercase
+
+27. Marquee is a tag in HTML to
+a. mark the list of items to maintain inqueue
+b. Mark the text so that it is hidden in browser
+ Ans c. Display text with scrolling effect
+d. None of above
+
+28. There are ____ different of heading tags in HTML
+a. 4
+b. 5
+ Ans c. 6
+d. 7
+
+29. To create a blank line in your web page
+a. press Enter two times
+b. press Shift + Enter
+ Ans c. insert <BR> tag
+d. insert <BLINE>
+
+30. Which of the following is not a style tag?
+a. <b>
+b. <tt>
+c. <i>
+ Ans d. All of above are style tags
+
+31. The way the browser displays the object can be modified by _____
+ Ans a. attributes
+b. parameters
+c. modifiers
+d. None of above
+
+32. Which of the following HTML code is valid?
+a. <font colour=”red”>
+ Ans b. <font color=”red”>
+c. <red><font>
+d. All of above are style tags
+
+33. Which of the following is an attribute related to font tag?
+a. size
+b. face
+c. color
+ Ans d. All of above are style tags
+
+34. HTML supports
+a. ordered lists
+b. unordered lists
+ Ans c. both type of lists
+d. does not support those types
+
+35. What tag is used to list individual items of an ordered list?
+ Ans a. LI
+b. OL
+c. UL
+d. None of above
+
+36. When should you use path along with file name of picture in IMG tag?
+a. path is optional and not necessary
+ Ans b. when the location of image file and html file are different
+c. when image file and html file both are on same location
+d. path is always necessary when inserting image
+
+37. Which of the following is not a valid alignment attribute?
+a. Left
+b. Right
+c. Top
+ Ans d. All of above
+
+38. Which attribute is used with img tag to display the text if image could not load in browser?
+a. description
+b. name
+ Ans c. alt
+d. id
+
+39. Which attribute can be used with BODY tag to set background color green?
+a. background=”green”
+ Ans b. bgcolor=”green”
+c. vlink=”green”
+d. None of above
+
+40. Which attribute you’ll use with TD tag to merge two cells horizontally?
+a. merge=colspan2
+b. rowspan=2
+ Ans c. colspan=2
+d. merge=row2
+
+41. A webpage displays a picture. What tag was used to display that picture?
+a. picture
+b. mage
+ Ans c. img
+d. src
+
+42. <b> tag makes the enclosed text bold. What is other tag to make text bold?
+ Ans a. <strong>
+b. <dar>
+c. <black>
+d. <emp>
+
+43. Tags and test that are not directly displayed on the page are written in _____ section.
+a. <html>
+ Ans b. <head>
+c. <title>
+d. <body>
+
+44. Which tag inserts a line horizontally on your web page?
+ Ans a. <hr>
+b. <line>
+c. <line direction=”horizontal”>
+d. <tr>
+
+45. What should be the first tag in any HTML document?
+a. <head>
+b. <title>
+ Ans c. <html>
+d. <document>
+
+46. Which tag allows you to add a row in a table?
+a. <td> and </td>
+b. <cr> and </cr>
+c. <th> and </th>
+ Ans d. <tr> and </tr>
+
+47. How can you make a bulleted list?
+a. <list>
+b. <nl>
+ Ans c. <ul>
+d. <ol>
+
+48. How can you make a numbered list?
+a. <dl>
+ Ans b. <ol>
+c. <list>
+d. <ul>
+
+49. How can you make an e-mail link?
+a. <a href=”xxx@yyy”>
+b. <mail href=”xxx@yyy”>
+c. <mail>xxx@yyy</mail>
+ Ans d. <a href=”mailto:xxx@yyy”>
+
+50. What is the correct HTML for making a hyperlink?
+ Ans a. <a href=”http:// ABC.com”>MCQ Sets Quiz</a>
+b. <a name=”http:// ABC.com”>MCQ Sets Quiz</a>
+c. <http:// ABC.com</a>
+d. url=”http:// ABC.com”>MCQ Sets Quiz
+
+51. Choose the correct HTML tag to make a text italic
+a. <ii>
+b. <italics>
+c. <italic>
+ Ans d. <i>
+
+52. Choose the correct HTML tag to make a text bold?
+ Ans a. <b>
+b. <bold>
+c. <bb>
+d. <bld>
+
+53. What is the correct HTML for adding a background color?
+a. <body color=”yellow”>
+ Ans b. <body bgcolor=”yellow”>
+c. <background>yellow</background>
+d. <body background=”yellow”>
+
+54. Choose the correct HTML tag for the smallest size heading?
+a. <heading>
+ Ans b. <h6>
+c. <h1>
+d. <head>
+
+55. What is the correct HTML tag for inserting a line break?
+ Ans a. <br>
+b. <lb>
+c. <break>
+d. <newline>
+
+56. What does vlink attribute mean?
+ Ans a. visited link
+b. virtual link
+c. very good link
+d. active link
+
+57. Which attribute is used to name an element uniquely?
+a. class
+ Ans b. d
+c. dot
+d. all of above
+
+58. Which tag creates a check box for a form in HTML?
+a. <checkbox>
+ Ans b. <input type=”checkbox”>
+c. <input=checkbox>
+d. <input checkbox>
+
+59. To create a combo box (drop down box) which tag will you use?
+ Ans a. <select>
+b. <list>
+c. <input type=”dropdown”>
+d. all of above
+
+60. Which of the following is not a pair tag?
+a. <p>
+b. < u >
+c. <i>
+ Ans d. <img>
+
+61. What is the full form of HTML?
+ Ans a. Hyper text markup language
+b. Hyphenation text markup language
+c. Hyphenation test marking language
+d. Hyper text marking language
+
+62. What is the full form of HTTP?
+ Ans a. Hyper text transfer protocol
+b. Hyper text transfer package
+c. Hyphenation text test program
+d. none of the above
+
+63. What is a search engine?
+a. a program that searches engines
+ Ans b. a web site that searches anything
+c. a hardware component
+d. a machinery engine that search data
+
+64. What is the full form of TCP/IP?
+ Ans a. transmission control protocol / internet protocol
+b. telephone call protocol / international protocol
+c. transport control protocol / internet protocol
+d. none of the above
+
+65. HTML document start and end with which tag pairs?
+a. <HEAD>….</HEAD>
+b. <BODY>….</BODY>
+ Ans c. <HTML>….</HTML>
+d. <WEB>….</WEB>
+
+66. Which tag is used to create body text in HTML?
+a. <HEAD>
+b. <TEXT>
+c. <TITLE>
+ Ans d. <BODY>
+
+67. “Yahoo”, “Infoseek” and “Lycos” are _________?
+ Ans a. Search Engines
+b. Browsers
+c. News groups
+d. None of the above
+
+68. What does the .com domain represents?
+a. Education domain
+ Ans b. Commercial domain
+c. Network
+d. None of the above
+
+69. In Satellite based communication, VSAT stands for?
+ Ans a. Very Small Aperture Terminal
+b. Varying Size Aperture Terminal
+c. Very Small Analog Terminal
+d. None of the above
+
+70. Outlook Express is a _________
+ Ans a. E-Mail Client
+b. Browser
+c. Search Engine
+d. None of the above
+
+71. <TITLE> … </TITLE> tag must be within ________
+a. Title
+b. Form
+ Ans c. Header
+d. Body
+
+72. Text within <EM> … </EM> tag is displayed as ________
+a. bold
+ Ans b. italic
+c. list
+d. indented
+
+73. Text within <STRONG> … </STRONG> tag is displayed as ________
+ Ans a. bold
+b. italic
+c. list
+d. indented
+
+74. <UL> … </UL> tag is used to ________
+a. display the numbered list
+b. underline the text
+ Ans c. display the bulleted list
+d. bold the text
+
+75. Which tag is used to display the numbered list?
+ Ans a. <OL></OL>
+b. <DL></DL>
+c. <UL></UL>
+d. <LI></LI>
+
+76. Which tag is used to display the large font size?
+a. <LARGE></LARGE>
+ Ans b. <BIG></BIG>
+c. < SIZE ></SIZE>
+d. <FONT></FONT>
+
+77. <SCRIPT> … </SCRIPT> tag can be placed within ________
+a. Header
+b. Body
+ Ans c. both A and B
+d. none of the above
+
+78. using <P> tag will
+ Ans a. start a new paragraph
+b. break the line
+c. end the current paragraph
+d. none of the above
+
+79. <TD> … </TD> tag is used for ________
+a. Table heading
+ Ans b. Table Records
+c. Table row
+d. none of the above
+
+80. Which is true to change the text color to red?
+a. <BODY BGCOLOR=RED>
+ Ans b. <BODY TEXT=RED>
+c. <BODY COLOR=RED>
+d. none of the above
+
+81. With regards to e-mail addresses:
+a. hey must always contain an @ symbol
+b. hey can never contain spaces
+c. they are case-insensitive
+ Ans d. all of the above
+
+82. A homepage is __________
+a. an index of encyclopedia articles
+b. where all Internet data is stored
+c. required for access to the Internet
+ Ans d. the first page of a website
+
+83. Which of the following is used to explore the Internet?
+ Ans a. Browser
+b. Spreadsheet
+c. Clipboard
+d. Draw
+
+84. What is Internet Explorer?
+a. An Icon
+b. A File Manager
+ Ans c. A Browser
+d. The Internet
+
+85. What do I need to get onto the Internet?
+a. Computer
+b. Modem
+c. Browser
+ Ans d. All of the above
+
+86. What is an ISP?
+a. nternet System Protocol
+b. nternal System Program
+ Ans c. Internet Service Provider
+d. None of the above
+
+87. Which of the following is valid IP address?
+a. 984.12.787.76
+b. 192.168.321.10
+c. 1.888.234.3456
+ Ans d. 192.168.56.115
+
+88. Which is not a domain name extension
+a. mil
+b. org
+ Ans c. .int
+d. .com
+
+89. What is a FTP program used for?
+ Ans a. Transfer files to and from an Internet Server
+b. Designing a website
+c. Connecting to the internet
+d. None of the above
+
+90. Which of the following are commonly found on web pages?
+a. internet
+ Ans b. hyperlinks
+c. intranet
+d. all of the above
+
+91. What is the correct syntax in HTML for creating a link on a webpage?
+a. <LINK SRC= “ABC.html”>
+b. <BODY LINK = “ABC.html”>
+c. <A SRC = “ABC.html” >
+ Ans d. < A HREF = “ABC.html”>
+
+92. Which of the following is an attribute of <Table> tag?
+a. SRC
+b. LINK
+ Ans c. CELLPADDING
+d. BOLD
+
+93. Choose the correct HTML tag to make the text bold?
+a. <B>
+b. <BOLD>
+c. <STRONG>
+ Ans d. Both A) and C)
+
+94. Which HTML tag would be used to display power in expression (A+B)2 ?
+ Ans a. <SUP>
+b. <SUB>
+c. <B>
+d. <P>
+
+95. Choose the correct HTML code to create an email link?
+a. <A HREF = “admin@ABC.com”></A>
+ Ans b. <A HREF = “admin:suresh@ABC.com”></A>
+c. <MAIL>admin@ABC.com </MAIL>
+d. MAILHREF = “admin@ABC.com”>
+
+96. Choose the correct HTML tag for the largest heading?
+ Ans a. <H1>
+b. <H6>
+c. <H10>
+d. <HEAD>
+
+97. Output of XML document can be viewed in a
+a. Word Processor
+ Ans b. Web browser
+c. Notepad
+d. None of the above
+
+98. What is the correct way of describing XML data?
+a. XML uses a DTD to describe data
+b. XML uses a description node to describe data
+ Ans c. XML uses XSL to describe the data
+d. XML uses a validator to describe the data
+
+99. Comments in XML document is given by:
+a. <?– _ _–>
+b. <!_ _ _ _!>
+ Ans c. <!_ _ _ _>
+d. </_ _ _ _>
+
+100. Which statement is true?
+ Ans a. An XML document can have one root element
+b. An XML document can have one child element
+c. XML elements have to be in lower case
+d. All of the above
+HTML and WEB PAGE DESIGNING Interview Questions and Answers ::
+
+101. Will you answer my questions if I send them to you?
+a. There are some pages in MCQ Sets that offers you the form
+ Ans b. If you send me questions using the forms in MCQ Sets
+d. Get the most authentic answers for your subjective questions
+
+102. In HTML, Uniform Resource Identifier (URI) is used to
+a. To create a frame document .
+b. To create a image map in the webpage.
+c. To customize the image in the webpage.
+ Ans d. To identify a name or a resource on the internet.
+
+103. CSS is an acronym for
+ Ans a. Cascading Style Sheet
+b. Costume Style Sheet
+c. Cascading System Style
+d. None of the Above
+
+104. Which of the following protocol is not used in the Internet
+a. Telnet
+ Ans b. WIRL
+c. HTTP
+d. Gopher
+
+105. Who invented World Wide Web (WWW)?
+a. Blaise Pascal
+b. Charles Babbage
+c. Herman Hollerith
+ Ans d. Tim Berners-Lee
+
+106. What is the use of Web Font in HTML ?
+a. that is the core font that is use to develop Web Pages.
+ Ans b. that enables to use fonts over the Web without installation.
+c. that is the special font that developed by Microsoft Corp.
+d. All of the Above.
+
+107. What is <tt> tag in HTML?
+ Ans a. It renders fonts as teletype text font style.
+b. It renders fonts as truetype text font style.
+c. It renders fonts as truncate text font style.
+d. None of the Above.
+
+108. What is the use of Forms in HTML?
+a. to display contents of email.
+b. to display animation effect.
+ Ans c. to collect user’s input.
+d. None of the Above.
+
+109. What is the use of iframe in HTML?
+ Ans a. to display a web page within a web page.
+b. to display a web page with animation effect.
+c. to display a web page without browser.
+d. All of the Above.
+
+110. FTP is an acronym for
+a. File Transaction Protocol
+b. File Transmission Protocol
+c. File Translation Protocol
+ Ans d. File Transfer Protocol
+
+111. Which HTML Tag will use to scroll a text in web page?
+ Ans a. <marquee> … </marquee>
+b. <scroll> … </scroll>
+c. <round> … </round>
+d. <go> … </go>
+
+112. Which organization defines the Web Standards?
+a. Microsoft Corporation
+b. IBM Corporation
+ Ans c. World Wide Web Consortium
+d. Apple Inc.
+
+113. How to set a picture as a background web page?
+ Ans a. <body background= “bgimage.gif”>
+b. <body background image= “bgimage.gif”>
+c. <background= “bgimage.gif”>
+d. <background image= “bgimage.gif”>
+
+114. Which of following HTML Tag will inserting a line break?
+a. <p />
+b. <lb />
+ Ans c. <br />
+d. <break />
+
+115. Which of the following tags are related to Table in HTML ?
+a. <table> <row> <column>
+ Ans b. <table> <tr> <td>
+c. <table> <head> <body>
+d. <table> <header> <footer>
+
+116. Which of the following is correct HTML for inserting an image?
+a. <image source= “www.ABC.com/admin.jpg” alt= “This is me” />
+ Ans b. <img src= “www.ABC.com/admin.jpg” alt= “This is me” />
+c. <img source= “www.ABC.com/admin.jpg” alt= “This is me” />
+d. <img alt= “This is me”>www.ABC.com/admin.jpg
+
+117. Choose the correct HTML tag to left-align the content of a cell.
+a. <tdleft>
+b. <td leftalign>
+c. valign= “left”>
+ Ans d. <td align= “left”>
+
+118. Which tag is used to lists the items with bullets?
+a. <bullet>…</bullet>
+b. <list>…</list>
+ Ans c. <ul>…
+d. <ol>…</ol>
+
+119. Is it possible to insert a table within another table?
+a. Yes, but there must be exactly 2 rows and 2 columns in first table.
+ Ans b. Yes, table can be inserted into cell of another table.
+c. Yes, but there must be no border in second table.
+d. No, it’s not possible.
+
+120. What is the usage of alt value in <img> tag?
+ Ans a. Alternative text for an Image
+b. Alternative source of an Image
+c. Caption of an Image
+d. All of above
+
+121. Which of the following is the correct regarding meta tag in HTML?
+a. A. <meta> … </meta>
+ Ans b. B. <meta name = ” ” />
+c. C. <metadata> … </metadata>
+d. D. <metadata name = ” ” />
+
+122. Which of the following is correct to set “Black” color as Background of page?
+ Ans a. A. bgcolor = “#000000”>
+b. B. <body background = “#000000”>
+c. C. <body Background color = “#000000”>
+d. D. All of Above
+
+123. Which of the following is correct to align H1 tag to Right Alignment
+ Ans a. A. <h1 align = “right”> …
+b. B. <h1 alignment = “right”> …
+c. C. <h1 tag align = “right”> … </h1>
+d. D. H1 cannot make Right Alignment
+
+124. Which of the following is correct to change font face in Web Page
+a. A. <font = “font name”> …
+b. B. <font name = “font name”> … </font>
+ Ans c. C. <font face = “font name”> … </font>
+d. D. Font Face cannot change
+
+125. Which of the following is incorrect regarding Logical styles?
+a. A. Code looks like teletype
+b. B. Sample looks like teletype
+c. C. Keyboard looks like teletype
+ Ans d. D. Variable looks like teletype
+
+126. Which of the following is correct character entities for “Copyright” symbol?
+a. A. &#149;
+b. B. &#159;
+ Ans c. C. &#169;
+d. D. &#179;
+
+127. Which tag is used to display Preformatted texts?
+ Ans a. A. <pre> … </ pre>
+b. B. <prefor> … </ prefor>
+c. c. <pre text> … </ pre text>
+d. D. <pre format> … </ pre format>
+
+128. Which is the correct to create an Arabic numeral list
+a. A. <ul type=”1?>
+ Ans b. B. <ol type=”1?>
+c. C. <il type=”1?>
+d. D. <li type=”1?>
+
+129. How to add alternative text for an Image?
+a. A. <img src = “http://www.ABC.com/brand.png” alternate = “Brand of website” />
+b. B. <img src = “http://www.ABC.com/brand.png” alt text = “Brand of website” />
+c. C. src = “http://www.ABC.com/brand.png” alternate text = “Brand of website” />
+ Ans d. D. src = “http://www.ABC.com/brand.png” alt = “Brand of website” />
+
+130. How to embedded Audio Files in HTML?
+ Ans a. A. src = “mysong.mid” width = “100” height = “15”>
+b. B. <embed sound = “mysong.mid” width = “100” height = “15”>
+c. C. <embed audio = “mysong.mid” width = “100” height = “15”>
+d. D. <embed music = “mysong.mid” width = “100” height = “15”>
+
+131. Which of the following is used to create web pages?
+ Ans a. HTML
+b. C
+c. JVM
+d. DTD
+
+132. HTML is considered as ___ language
+a. Programming Langauge
+b. OOP Language
+c. High Level Language
+ Ans d. Markup Language
+
+133. HTML language is a set of markup ___
+a. Attributes
+ Ans b. Tags
+c. Sets
+d. Groups
+
+134. HTML tags are used to describe document ____
+a. Definition
+b. Language
+ Ans c. Content
+d. None of these
+
+135. HTML document can contain
+a. Attributes
+b. Tags
+c. Plain text
+ Ans d. All of these
+
+136. Page designed in HTML is called a
+a. Yellow Page
+ Ans b. Web Page
+c. Server Page
+d. Front Page
+
+137. We can write HTML code using ____. Select appropriate option(s).
+ Ans a. VLC Media
+b. Notepad++
+c. Microsoft PowerPoint
+d. None of these
+
+138. HTML document is saved using ____ extension.
+a. .htl
+ Ans b. .html
+c. .hml
+d. .htnl
+
+139. The software that can read and render HTML documents is
+a. Server
+b. Compiler
+c. Interpreter
+ Ans d. Browser
+
+140. PCs running Windows 3.x will have ____extension for html pages
+a. .htl
+b. .html
+ Ans c. .htm
+d. .hml
+
+141. Which of the following is not an example of browser?
+a. Netscape Navigator
+ Ans b. Microsoft Bing
+c. Mozilla Firefox
+d. Opera
+
+142. Who is the primary author of HTML?
+a. Brendan Eich
+ Ans b. Tim Berners-Lee
+c. Web Programmer
+d. Google Inc
+
+143. HTML was first proposed in year ___.
+a. 1980
+ Ans b. 1990
+c. 1995
+d. 2000
+
+144. HTML tags are surrounded by ___ brackets
+ Ans a. Angle
+b. Square
+c. Round
+d. Curly
+
+145. Opening tag of HTML is called
+a. Ending tag
+ Ans b. Starting tag
+c. Closed tag
+d. Pair tags
+
+146. HTML document contain one root tag called ____
+a. HEAD
+b. Title
+c. Body
+ Ans d. HTML
+
+147. Basic fundamental block is called as ___
+ Ans a. HTML tag
+b. HTML body
+c. HTML Attribute
+d. HTML Element
+
+148. Pick the odd out
+a. Table
+b. TR
+c. TD
+ Ans d. Form
+
+149. The first page of a website is called
+a. Design
+ Ans b. Home page
+c. First page
+d. Main page
+
+150. The version of HTML is
+a. HTML0
+b. HTML1
+c. HTML2
+ Ans d. All of these
+
+151. Head tag is used for?
+a. Writing style
+b. Writing Java Script
+c. Including CSS, JS Files
+ Ans d. All of these
+
+152. How many heading tags are supported by HTML?
+a. 3
+b. 4
+c. 5
+ Ans d. 6
+
+153. Which is the largest heading tag?
+ Ans a. H1
+b. H3
+c. H4
+d. H6
+
+154. Which of the following are attributes of Font tag?
+a. Face
+b. Size
+c. Color
+ Ans d. All of above
+
+155. ……………………. connects web pages.
+a. Connector
+b. Link
+ Ans c. Hyperlink
+d. None of the above
+
+156. Internet is ………………………….
+a. a network of networks
+b. an ocean of resources waiting to be mined
+c. a cooperative anarchy
+ Ans d. all of the above
+
+157. ……………… is suitable for remote administration of a computer.
+a. FTP
+b. Shell
+c. Remote Procedure Call
+ Ans d. Telnet
+
+158. Title tag is nested within the ………………….. tag.
+a. Body
+ Ans b. Head
+c. List
+d. Table
+
+159. ……………….. is a web’s native protocol.
+a. SLIP
+ Ans b. TCP/IP
+c. HTTP
+d. PPP
+
+160. The Internet uses the …………………… as the protocol engine.
+a. SLIP
+b. HTTP
+ Ans c. TCP/IP
+d. PPP
+
+161. A ……………………….. is a symbolic name a network administrator assigns to a machine.
+a. URL
+b. DNS
+c. IP address
+ Ans d. Host name
+
+162. Which of the following protocol is used for e-mail services.
+a. SMAP
+ Ans b. SMTP
+c. SMIP
+d. SMOP
+
+163. …………………. is the incoming e-mail server.
+ Ans a. POP
+b. SMTP
+c. SMIP
+d. PPP
+
+164. ………………….. is a uniform naming scheme for locating resources on the web.
+ Ans a. URI
+b. HTTP
+c. WEBNAME
+d. RESOURCENAME
+
+165. The attribute ……………… of <BODY> tag sets color of hypertext links.
+ Ans a. link
+b. vlink
+c. alink
+d. hlink
+
+166. Default font size of HTML is …………………..
+a. 2
+b. 4
+c. 6
+ Ans d. 3
+
+167. This is a networking device that passes data between networks having similar functions but dissimilar implementations.
+a. Hub
+b. Modem
+ Ans c. Gateway
+d. Repeater
+
+168. In order to connect to ISP’s server you need …….
+a. Hand gloves
+b. Printer
+ Ans c. User name and Password
+d. None of the above
+
+169. DNS translates ………
+a. domain name into IP
+b. IP into domain name
+ Ans c. both a & b
+d. domain name into physical address
+
+170. In order to upload a HTML file to a web server, you use
+a. HTTP
+b. SMTP
+c. SIP
+ Ans d. FTP
+
+171. IEEE stands for ……..
+a. Institute of estimated elevator efficiency
+b. Institute of electrical and economical engineers
+c. Institute of Eurasia engineering event
+ Ans d. Institute of electrical and electronics engineers
+
+172. The regional networks are connected to the corporate networks, this is also called as ……..
+ Ans a. Backbone
+b. LAN COM
+c. WAN COM
+d. Intranet
+
+173. Once the email is sent, the message is broken into pieces called ………………
+ Ans a. Packets
+b. Process
+c. Digits
+d. Bytes
+
+174. ………………. is known as father of World Wide Web.
+a. Robert Cailliau
+b. Tim Thompson
+c. Charles Darwin
+ Ans d. Tim Berners-Lee
+
+175. ……………. are the physical meeting points of backbones.
+ Ans a. Gateways
+b. Pathways
+c. Routers
+d. Domains
+
+176. WSFTP is an example of ……………………… program.
+ Ans a. FTP
+b. Telnet
+c. Web browser
+d. Mail
+
+177. Which of the following is best suitable for remote administration of a computer?
+ Ans a. Telnet
+b. WAIS
+c. Browsers
+d. HTML
+
+178. The leading bit pattern of class B network is ………………
+a. 0
+ Ans b. 10
+c. 110
+d. 11
+
+179. The …………………. attribute adds space within each cell.
+a. CELL SPACING
+ Ans b. CELL PADDING
+c. WIDTH
+d. ALIGN
+
+180. Which of the following are two popular protocols that allow home computer users to connect their computers to the
+internet as per hosts? i) SLIP ii) PPPiii) HTTP iv) SMTP
+a. iii and iv
+b. ii and iii
+ Ans c. i and ii
+d. ii and iii
+
+181. A computer that translates …………………… of another computer into an …………… and vice versa, upon request is
+known as DNS server.
+ Ans a. Domain name and IP address
+b. Host address and Domain name
+c. Domain name and server address
+d. Server name and IP address
+
+182. Identify the uses of URI in HTML.: i) Link to another document or resource ii) Link to external style sheet or script iii)
+Create an image map
+a. i and ii
+b. i and iii
+c. ii and iii
+ Ans d. i , ii and iii
+
+183. An ordered list is a …………………. list and an unordered list is a …………….. list.
+a. bulleted & numbered
+b. bulleted & tabular
+c. tabular & numbered
+ Ans d. numbered & bulleted
+
+184. Linking to another place in the same or another web page requires two A (Anchor) tags, the first with the ………………
+attribute and the second the ……………….attribute.
+a. NAME & LINK
+b. LINK & HREF
+ Ans c. HREF & NAME
+d. TARGET & VALUE
+
+185. What type of information should you avoid including on your Web site?
+a. Links to sites of interest
+ Ans b. Private personal information
+c. Work and academic experience
+d. Graphical
+
+186. Which of the following web elements should you know about before building your web site?
+ Ans a. The web audience
+b. The operating environment of your ISP
+c. The operating system of your visitor
+d. Each consideration should determine your web design choices
+
+187. What is the language of the Web?
+a. Basic
+b. C++
+c. MS Visual Basic
+ Ans d. HTML
+
+188. What does an HTML tag do?
+ Ans a. It specifies formatting and layout instructions for your web page.
+b. It hides programming instructions from view.
+c. It determines the organizational structure of your Web site.
+d. It connects your web site to an operating environment.
+
+189. A Web document is broken into sections. What are the tags called that create these sections?
+ Ans a. Structure tags
+b. HTML tags
+c. Heading tags
+d. Body tags
+
+190. What should be the first and last pair of tags in your Web document?
+ Ans a. <html></html> and <body></body>
+b. <start><end> and <body></body>
+c. <head><body> and <title></title>
+d. <title></title> and <body<>/body>
+
+191. When you use a heading tag in a document, what does the Web browser assumes?
+a. Heading information is to appear in bold letters
+ Ans b. Heading information is to appear on its own line
+c. Heading information has a hyperlink
+d. Heading information is shown as a size six
+
+192. For every Web document, you can add words that appear in the upper left bar area of your browser. What set of tags
+allows you to provide this information?
+a. <head></head>
+b. <head><head>
+c. <label><label>
+ Ans d. <title></title>
+
+193. If you wanted to create text that was a different color or font than other text in your Web page, what type of tag would
+you use?
+a. Layout
+ Ans b. Basic formatting
+c. Design
+d. Outline
+
+194. When creating a Web document, what format is used to express an image’s height and width?
+a. Centimeters
+ Ans b. Pixels
+c. Dots per inch
+d. Inches

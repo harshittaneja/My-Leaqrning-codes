@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		background-color: powderblue;
+	}
+	.main{
+		background-color: white;
+		width: 1000px;
+		height: 500px;
+margin-left: 150px;
+border-radius: 20px;
+	}
+
+</style>
+<body>
+	<script type="text/javascript">
+		function ID() {
+
+           var name1 = document.getElementById('name1').value;
+           var name2 = document.getElementById('name2').value;
+           var allgender = document.getElementsByName('gender');
+           var s=allgender.length;
+           var total=document.getElementsByTagName('p').length;
+           
+           
+           var abc =document.myform.gender.value;
+           document.write("<br>"+"FirstName name is :"+name1)
+           document.write("<br>"+"LastName  name is :"+name2)
+           document.write("<br>"+"Total possible outcomes :"+ s );
+           document.write("<br>"+"selected gender :"+abc)
+           document.write("<br>"+"Total length of p tag :"+total);
+           
+           var x = document.getElementsByClassName("example");
+
+			x = "Hello Harshit";
+			document.write("<br> "+"first div new value :" +x);
+         
+           
+    
+		
+		}
+		
+			</script>
+		
+
+	<center><h2>Dom example</h2></center>
+	<div class="main">
+		<br>
+		<br>
+		<center>
+		<form name="myform">
+	<label>FirstName:</label>
+	<input type="text" name="" placeholder="Enter your FirstName " id="name1">
+	<br>
+	<br>
+    <label>LastName:</label>
+    <input type="text"  placeholder="Enter your LastName " id="name2" >
+    <br>
+    <br>
+ Male :<input type="radio" name="gender" value="Male">
+ Female:<input type="radio" name="gender" value="Female">
+ other :<input type="radio" name="gender" value="Other">
+    <br>
+    <br>
+	<button onclick="ID()">Submit </button>
+	
+	<p>check the number of paragraph tag</p>
+<p>hi i am harshit</p>
+<br>
+<br>
+<div class="example">First DIV element with class="example".</div>
+<div class="example">Second DIV element with class="example".</div>
+</form>
+
+
+</center>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

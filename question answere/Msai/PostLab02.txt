@@ -1,0 +1,55 @@
+Q1.Which is not a Target value in anchor tag? 
+_Parent 
+_Self 
+_Blank 
+_Child(Correct)
+
+Q2.Match the tag sub tag?
+<Table>  <Td>
+<Dl>  <dt>
+<Ol>  <li>
+<Tr>  border
+
+Q3.In which tag we write metadata? 
+Body
+head(Correct)
+table
+frameset
+
+Q4.Which is right sequence?
+<Table><th><tr><td> 
+<Table><tr><th><td>(Correct) 
+<Table><tr><td><th> 
+<tr><td><tr><Table>
+
+Q5.Order list have 6 type
+True
+False(Correct)
+
+Q6.Action is directly connected with_______
+Text
+Radio button
+Submit Button(Correct)
+List Button
+
+Q7.we define the text direction via css property
+True(Correct)
+False
+
+Q8.Match the attributes with the tags
+Table-> Border
+Body
+Ol-> Type
+Image ->Src
+
+Q9.Can we align a Block element by setting the left and right margins ?
+True
+False(Correct)
+
+Q10.CSS stands for
+
+cascade system sheet
+case style sheet
+Core style sheet
+Cascading style sheet(Correct)
+

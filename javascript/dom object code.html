@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body{
+		background-color: powderblue;
+		text-align: center;
+	}
+	.form{
+		background-color: white;
+		height: 800px;
+		width: 100px;
+	}
+</style>
+<body>
+	<div class="form">
+	<br>
+	<br>
+	
+	<form name="myform">
+	<label>FirstName:</label>
+	<input type="text" name="" placeholder="Enter your FirstName " id="name1">
+	<br>
+	<br>
+    <label>LastName:</label>
+    <input type="text"  placeholder="Enter your LastName " id="name2" >
+    <br>
+    <br>
+ Male :<input type="radio" name="gender" value="Male">
+ Female:<input type="radio" name="gender" value="Female">
+ other :<input type="radio" name="gender" value="Other">
+
+    <br>
+    <br>
+	<button onclick="ID()">Click here </button>
+</form>
+</div>
+
+	<script type="text/javascript">
+		function ID() {
+           var name1 = document.getElementById('name1').value;
+           var name2 = document.getElementById('name2').value;
+           var allgender = document.getElementsByName('gender').length;
+           var abc =document.myform.gender.value;
+           document.write("<br>"+"FirstName name is :"+name)
+           document.write("<br>"+"LastName  name is :"+name2)
+           document.write("<br>"+"Total possible outcomes :"+allgender);
+           document.write("<br>"+"selected gender :"+abc)
+           
+
+		}
+		
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>

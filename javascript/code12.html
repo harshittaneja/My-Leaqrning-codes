@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		//string function in javascript
+
+		//string varaible
+		var s="Harshit";
+		var s1="Taneja";
+		var s2="hi how are you Hi are";
+		var k="1";
+		document.write(s.charAt(2));
+		//this wil print the asci value
+		document.write("<br>"+s.charCodeAt(2));
+		document.write("<br>"+s.concat(s1));
+		document.write("<br>"+s.indexOf("r"));
+		//this like println in java this search this is case sentive 
+		document.writeln("<br>"+s2.search("Hi"));
+		//this is not case sensitve so it will print zero index hi 
+		document.writeln("<br>"+s2.search(/hi/));
+		//match function will return a string if it finds 
+		document.writeln("<br>"+s2.match(/you/));
+		//it will not able to find then retuen null
+		document.writeln("<br>"+s2.match(/k/));
+		//regular expression do validation that it is charcter only 
+		document.writeln("<br>"+s2.match(/[a-z]/));
+		//here we have number value but we going to check it is regular expression or not so it will give us null
+		document.writeln("<br>"+k.match(/[a-z]/));
+         //slicing in string here 4 is exclude like in python
+         document.writeln("<br>"+s1.slice(1,4));
+
+         //substring
+         document.write("<br>"+s.substring(2,5))
+           //                   substring(0,n-1)
+           //upsercase
+           document.write("<br>"+s.toUpperCase())
+           //lowercase
+            document.write("<br>"+s.toLowerCase())
+            //last indexof 
+            document.write("<br>"+s.lastIndexOf())
+
+
+	</script>
+
+</body>
+</html>

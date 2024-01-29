@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p>Hi if error comes then it will tell the name of it </p>
+	<p id="demo" style="color: red"> </p>
+	<script type="text/javascript">
+		try{
+		//try catch with javscript here we don't use alert by mistake we type something incorect (addalert) so it will give error to use 	
+addalert("welcome guest")
+		}
+		catch(err){
+			//here if eror comes we type then errror name by err.name
+			document.getElementById('demo').innerHTML=err.Name +" "+err.message;
+		}
+	</script>
+
+</body>
+</html>
